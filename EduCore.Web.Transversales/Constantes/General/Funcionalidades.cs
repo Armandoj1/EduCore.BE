@@ -3,4 +3,5 @@
 public class Funcionalidades
 {
     public const string MEDICOS = "Medicos";
+    public const string DOCENTES = "Docentes";
 }
