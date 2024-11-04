@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\EduCore.Web.Data\EduCore.Web.Data.csproj" />
+		<ProjectReference Include="..\EduCore.Web.Repositorio.Interface\EduCore.Web.Repositorio.Interface.csproj" />
+		<ProjectReference Include="..\EduCore.Web.Transversales\EduCore.Web.Transversales.csproj" />
+	</ItemGroup>
+
+</Project>
