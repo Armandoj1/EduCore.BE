@@ -136,7 +136,7 @@
               "RelativeDocumentMoniker": "EduCore.Web.Repositorio\\Docentes\\DocentesDAL.cs",
               "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\source\\repos\\EduCore.Web.BE\\EduCore.Web.Repositorio\\Docentes\\DocentesDAL.cs",
               "RelativeToolTip": "EduCore.Web.Repositorio\\Docentes\\DocentesDAL.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwD8AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T15:07:11.175Z",
               "EditorCaption": ""
@@ -151,8 +151,7 @@
               "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Docentes\\DocentesDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:05:30.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:05:30.23Z"
             },
             {
               "$type": "Document",
@@ -164,8 +163,7 @@
               "RelativeToolTip": "EduCore.Web.Repositorio.Interface\\Docentes\\IDocentesDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:02:23.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:02:23.948Z"
             },
             {
               "$type": "Document",
@@ -177,8 +175,7 @@
               "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Docentes\\Docentes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:59:43.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T14:59:43.205Z"
             },
             {
               "$type": "Document",
@@ -190,8 +187,7 @@
               "RelativeToolTip": "EduCore.Web.Repositorio\\Medicos\\MedicosDAL.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAAIwH0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T13:53:14.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T13:53:14.462Z"
             },
             {
               "$type": "Document",
@@ -203,8 +199,7 @@
               "RelativeToolTip": "EduCore.Web.Transversales\\Constantes\\General\\Funcionalidades.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T13:42:48.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T13:42:48.84Z"
             },
             {
               "$type": "Document",
@@ -216,8 +211,7 @@
               "RelativeToolTip": "EduCore.Web.Transversales\\Constantes\\General\\ProcedimientosAlmacenados.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T13:43:29.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T13:43:29.406Z"
             },
             {
               "$type": "Document",
@@ -229,8 +223,7 @@
               "RelativeToolTip": "EduCore.Web.BE\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-04T15:02:31.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:02:31.066Z"
             },
             {
               "$type": "Document",
@@ -290,8 +283,7 @@
               "RelativeToolTip": "EduCore.Web.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T13:52:23.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T13:52:23.8Z"
             },
             {
               "$type": "Document",
@@ -315,8 +307,7 @@
               "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Medicos\\Medicos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T13:37:07.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T13:37:07.041Z"
             },
             {
               "$type": "Document",
@@ -340,8 +331,7 @@
               "RelativeToolTip": "EduCore.Web.BE\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T13:00:04.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T13:00:04.117Z"
             },
             {
               "$type": "Document",

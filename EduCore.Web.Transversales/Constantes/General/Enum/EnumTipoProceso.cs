@@ -7,7 +7,7 @@ public enum EnumTipoProceso
     Insertar = 2,
     Actualizar = 3,
     Eliminar = 4,
-    ConsultaOtraTabla,
+    ConsultaOtraTabla = 5,
     ActualizarTodo,
     ConsultaOtraTablaAdicional,
     InsertarDetalles,

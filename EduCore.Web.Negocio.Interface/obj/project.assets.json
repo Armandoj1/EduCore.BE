@@ -4812,11 +4812,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\José A. Rodríguez\\source\\repos\\EduCore.Web.BE\\EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj",
       "projectName": "EduCore.Web.Negocio.Interfaces",
-      "projectPath": "C:\\Users\\José A. Rodríguez\\source\\repos\\EduCore.Web.BE\\EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj",
+      "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj",
       "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\José A. Rodríguez\\source\\repos\\EduCore.Web.BE\\EduCore.Web.Negocio.Interface\\obj\\",
+      "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Negocio.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4837,8 +4837,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\José A. Rodríguez\\source\\repos\\EduCore.Web.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
-              "projectPath": "C:\\Users\\José A. Rodríguez\\source\\repos\\EduCore.Web.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj"
+            "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
+              "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj"
             }
           }
         }
