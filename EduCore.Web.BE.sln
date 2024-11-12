@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35424.110
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Web.BE", "EduCore.Web.BE\EduCore.Web.BE.csproj", "{B777F7BC-477A-4489-B958-D483668D38AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduCore.Web.BE", "EduCore.Web.BE\EduCore.Web.BE.csproj", "{B777F7BC-477A-4489-B958-D483668D38AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{90B7E706-99FC-4863-9876-C9E00A63E09B}"
 EndProject
@@ -15,17 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DATA", "DATA", "{792AE888-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TRANSVERSALES", "TRANSVERSALES", "{7E7031A4-69FB-4313-8537-512791C8A051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Web.Negocio", "EduCore.Web.Negocio\EduCore.Web.Negocio.csproj", "{2D35DE19-66C9-41E8-9050-65895D02D1F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduCore.Web.Negocio", "EduCore.Web.Negocio\EduCore.Web.Negocio.csproj", "{2D35DE19-66C9-41E8-9050-65895D02D1F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Web.Negocio.Interfaces", "EduCore.Web.Negocio.Interface\EduCore.Web.Negocio.Interfaces.csproj", "{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduCore.Web.Negocio.Interfaces", "EduCore.Web.Negocio.Interface\EduCore.Web.Negocio.Interfaces.csproj", "{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Web.Repositorio", "EduCore.Web.Repositorio\EduCore.Web.Repositorio.csproj", "{3B02E413-DF3C-4B76-A56A-372976A4DD34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduCore.Web.Repositorio", "EduCore.Web.Repositorio\EduCore.Web.Repositorio.csproj", "{3B02E413-DF3C-4B76-A56A-372976A4DD34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Web.Repositorio.Interface", "EduCore.Web.Repositorio.Interface\EduCore.Web.Repositorio.Interface.csproj", "{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduCore.Web.Repositorio.Interface", "EduCore.Web.Repositorio.Interface\EduCore.Web.Repositorio.Interface.csproj", "{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Web.Data", "EduCore.Web.Data\EduCore.Web.Data.csproj", "{0FA6317A-9A10-4CB1-ABEC-2B8FCE470FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduCore.Web.Data", "EduCore.Web.Data\EduCore.Web.Data.csproj", "{0FA6317A-9A10-4CB1-ABEC-2B8FCE470FEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Web.Transversales", "EduCore.Web.Transversales\EduCore.Web.Transversales.csproj", "{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduCore.Web.Transversales", "EduCore.Web.Transversales\EduCore.Web.Transversales.csproj", "{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,5 +73,8 @@ Global
 		{5A74AD6A-C380-4C55-BDF1-5B288D99C07A} = {575D700E-AE37-43FE-B1C7-F388D87DA319}
 		{0FA6317A-9A10-4CB1-ABEC-2B8FCE470FEB} = {792AE888-7340-46B1-BB09-FE9B239B3CEE}
 		{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6} = {7E7031A4-69FB-4313-8537-512791C8A051}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F294DA0-4F36-4ABC-B482-A1FC316C188A}
 	EndGlobalSection
 EndGlobal

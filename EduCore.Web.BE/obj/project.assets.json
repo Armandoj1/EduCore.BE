@@ -6099,24 +6099,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\david\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.BE\\EduCore.Web.BE.csproj",
+      "projectUniqueName": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\EduCore.Web.BE.csproj",
       "projectName": "EduCore.Web.BE",
-      "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.BE\\EduCore.Web.BE.csproj",
-      "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.BE\\obj\\",
+      "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\EduCore.Web.BE.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\José A. Rodríguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6130,14 +6125,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj"
+            "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj": {
+              "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj"
             },
-            "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj": {
-              "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj"
+            "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj": {
+              "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj"
             },
-            "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj": {
-              "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj"
+            "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj": {
+              "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj"
             }
           }
         }
@@ -6150,9 +6145,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -6332,40 +6326,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1904",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"System.Drawing.Common\" 4.7.0 tiene una vulnerabilidad de gravedad crítica conocida, https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
-      "libraryId": "System.Drawing.Common",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"System.Formats.Asn1\" 5.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-447r-wph3-92pm",
-      "libraryId": "System.Formats.Asn1",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"System.Text.RegularExpressions\" 4.3.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-cmhx-cq75-c4mj",
-      "libraryId": "System.Text.RegularExpressions",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

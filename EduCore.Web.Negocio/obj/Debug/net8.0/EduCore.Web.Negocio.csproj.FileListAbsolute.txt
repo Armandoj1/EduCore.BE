@@ -17,3 +17,23 @@ C:\Users\José A. Rodríguez\source\repos\EduCore.Web.BE\EduCore.Web.Negocio\obj
 C:\Users\José A. Rodríguez\source\repos\EduCore.Web.BE\EduCore.Web.Negocio\obj\Debug\net8.0\refint\EduCore.Web.Negocio.dll
 C:\Users\José A. Rodríguez\source\repos\EduCore.Web.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore.Web.Negocio.pdb
 C:\Users\José A. Rodríguez\source\repos\EduCore.Web.BE\EduCore.Web.Negocio\obj\Debug\net8.0\ref\EduCore.Web.Negocio.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\bin\Debug\net8.0\EduCore.Web.Negocio.deps.json
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\bin\Debug\net8.0\EduCore.Web.Negocio.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\bin\Debug\net8.0\EduCore.Web.Negocio.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\bin\Debug\net8.0\EduCore.Web.Negocio.Interfaces.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\bin\Debug\net8.0\EduCore.Web.Repositorio.Interface.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\bin\Debug\net8.0\EduCore.Web.Transversales.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\bin\Debug\net8.0\EduCore.Web.Negocio.Interfaces.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\bin\Debug\net8.0\EduCore.Web.Repositorio.Interface.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\bin\Debug\net8.0\EduCore.Web.Transversales.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore.Web.Negocio.csproj.AssemblyReference.cache
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore.Web.Negocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore.Web.Negocio.AssemblyInfoInputs.cache
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore.Web.Negocio.AssemblyInfo.cs
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore.Web.Negocio.csproj.CoreCompileInputs.cache
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore.Web.Negocio.sourcelink.json
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore..82ADE444.Up2Date
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore.Web.Negocio.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\refint\EduCore.Web.Negocio.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\EduCore.Web.Negocio.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Negocio\obj\Debug\net8.0\ref\EduCore.Web.Negocio.dll

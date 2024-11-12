@@ -17,3 +17,23 @@ C:\Users\José A. Rodríguez\source\repos\EduCore.Web.BE\EduCore.Web.Repositorio
 C:\Users\José A. Rodríguez\source\repos\EduCore.Web.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\refint\EduCore.Web.Repositorio.dll
 C:\Users\José A. Rodríguez\source\repos\EduCore.Web.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore.Web.Repositorio.pdb
 C:\Users\José A. Rodríguez\source\repos\EduCore.Web.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\ref\EduCore.Web.Repositorio.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\bin\Debug\net8.0\EduCore.Web.Repositorio.deps.json
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\bin\Debug\net8.0\EduCore.Web.Repositorio.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\bin\Debug\net8.0\EduCore.Web.Repositorio.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\bin\Debug\net8.0\EduCore.Web.Data.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\bin\Debug\net8.0\EduCore.Web.Repositorio.Interface.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\bin\Debug\net8.0\EduCore.Web.Transversales.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\bin\Debug\net8.0\EduCore.Web.Data.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\bin\Debug\net8.0\EduCore.Web.Repositorio.Interface.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\bin\Debug\net8.0\EduCore.Web.Transversales.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore.Web.Repositorio.csproj.AssemblyReference.cache
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore.Web.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore.Web.Repositorio.AssemblyInfoInputs.cache
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore.Web.Repositorio.AssemblyInfo.cs
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore.Web.Repositorio.csproj.CoreCompileInputs.cache
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore.Web.Repositorio.sourcelink.json
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore..4C828A45.Up2Date
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore.Web.Repositorio.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\refint\EduCore.Web.Repositorio.dll
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\EduCore.Web.Repositorio.pdb
+D:\DevHouse\EduCore.BE\EduCore.Web.Repositorio\obj\Debug\net8.0\ref\EduCore.Web.Repositorio.dll
