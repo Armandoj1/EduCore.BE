@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj": {}
+    "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj": {
+    "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj",
+        "projectUniqueName": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj",
         "projectName": "EduCore.Web.Data",
-        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj",
-        "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Data\\obj\\",
+        "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\José A. Rodríguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,9 +38,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -79,25 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj": {
+    "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj",
+        "projectUniqueName": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj",
         "projectName": "EduCore.Web.Repositorio.Interface",
-        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj",
-        "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\obj\\",
+        "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\José A. Rodríguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,8 +102,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
-                "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj"
+              "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
+                "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj"
               }
             }
           }
@@ -125,9 +116,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -148,25 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj": {
+    "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj",
+        "projectUniqueName": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj",
         "projectName": "EduCore.Web.Repositorio",
-        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj",
-        "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio\\obj\\",
+        "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\José A. Rodríguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -180,14 +166,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj": {
-                "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj"
+              "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj": {
+                "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Data\\EduCore.Web.Data.csproj"
               },
-              "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj": {
-                "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj"
+              "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj": {
+                "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj"
               },
-              "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
-                "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj"
+              "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
+                "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj"
               }
             }
           }
@@ -200,9 +186,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -223,25 +208,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
+    "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj",
+        "projectUniqueName": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj",
         "projectName": "EduCore.Web.Transversales",
-        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj",
-        "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore\\EduCore.BE\\EduCore.Web.Transversales\\obj\\",
+        "projectPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\José A. Rodríguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -265,9 +246,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -306,7 +286,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
