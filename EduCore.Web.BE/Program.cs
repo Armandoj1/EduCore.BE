@@ -1,32 +1,30 @@
 using EduCore.Web.Negocio;
 using EduCore.Web.Negocio.Interfaces;
-using EduCore.Web.Negocio.Interfaces.Notas;
-using EduCore.Web.Negocio.Interfaces.Usuario;
-using EduCore.Web.Negocio.Notas;
-using EduCore.Web.Negocio.Usuarios;
 using EduCore.Web.Repositorio;
 using EduCore.Web.Repositorio.Interface;
-using EduCore.Web.Repositorio.Interface.Notas;
-using EduCore.Web.Repositorio.Interface.Usuarios;
-using EduCore.Web.Repositorio.Notas;
-using EduCore.Web.Repositorio.Usuarios;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddTransient<IMedicosBLL, MedicosBLL>();
-builder.Services.AddTransient<IMedicosDAL, MedicosDAL>();
-builder.Services.AddTransient<IUsuariosBLL, UsuariosBLL>();
-builder.Services.AddTransient<IUsuariosDAL, UsuariosDAL>();
-builder.Services.AddTransient<INotasBLL, NotasBLL>();  
-builder.Services.AddTransient<INotasDAL, NotasDAL>();  
+// Configuración de CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigins",
+        builder => builder.WithOrigins("http://localhost:4200") // URL del front-end
+                          .AllowAnyHeader()
+                          .AllowAnyMethod());
+});
 
+builder.Services.AddTransient<IDocentesBLL, DocentesBLL>();
+builder.Services.AddTransient<IDocentesDAL, DocentesDAL>();
+builder.Services.AddTransient<IDocenteEspecialidadDAL, DocenteEspecialidadDAL>();
+builder.Services.AddTransient<IDocenteEspecialidadBLL, DocenteEspecialidadBLL>();
+builder.Services.AddTransient<IDocenteMateriasGradosDAL, DocenteMateriasGradosDAL>();
+builder.Services.AddTransient<IDocenteMateriasGradosBLL, DocenteMateriasGradosBLL>();
 
 var app = builder.Build();
 
@@ -37,6 +35,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Aplica la política de CORS
+app.UseCors("AllowSpecificOrigins");
 
 app.UseAuthorization();
 
