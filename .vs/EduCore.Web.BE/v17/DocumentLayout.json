@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "D:\\DevHouse\\EduCore.BE\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|d:\\devhouse\\educore.be\\educore.web.be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|solutionrelative:educore.web.be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +40,77 @@
       "RelativeMoniker": "D:0:0:{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}|EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj|solutionrelative:educore.web.negocio.interface\\notas\\inotasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\entidades\\medicos\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\entidades\\medicos\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\entidades\\medicos\\medicosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\entidades\\medicos\\medicosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\constantes\\general\\enum\\enumtipoproceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\constantes\\general\\enum\\enumtipoproceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|d:\\devhouse\\educore.be\\educore.web.repositorio\\docentes\\docentesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|solutionrelative:educore.web.repositorio\\docentes\\docentesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\constantes\\general\\procedimientosalmacenados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\constantes\\general\\procedimientosalmacenados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\constantes\\general\\funcionalidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\constantes\\general\\funcionalidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\entidades\\docentes\\docentesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\entidades\\docentes\\docentesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\entidades\\docentes\\docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\entidades\\docentes\\docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|d:\\devhouse\\educore.be\\educore.web.repositorio\\medicos\\medicosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|solutionrelative:educore.web.repositorio\\medicos\\medicosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|d:\\devhouse\\educore.be\\educore.web.repositorio.interface\\docentes\\idocentesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|solutionrelative:educore.web.repositorio.interface\\docentes\\idocentesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|d:\\devhouse\\educore.be\\educore.web.repositorio.interface\\medicos\\imedicosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|solutionrelative:educore.web.repositorio.interface\\medicos\\imedicosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|d:\\devhouse\\educore.be\\educore.web.be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|solutionrelative:educore.web.be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|d:\\devhouse\\educore.be\\educore.web.be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|solutionrelative:educore.web.be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|d:\\devhouse\\educore.be\\educore.web.be\\controllers\\medicos\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|solutionrelative:educore.web.be\\controllers\\medicos\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|d:\\devhouse\\educore.be\\educore.web.negocio\\medicos\\medicosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|solutionrelative:educore.web.negocio\\medicos\\medicosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\respuesta\\responsemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\respuesta\\responsemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}|EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj|d:\\devhouse\\educore.be\\educore.web.negocio.interface\\medicos\\imedicosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}|EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj|solutionrelative:educore.web.negocio.interface\\medicos\\imedicosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|d:\\devhouse\\educore.be\\educore.web.repositorio.interface\\notas\\inotasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|solutionrelative:educore.web.repositorio.interface\\notas\\inotasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,10 +135,13 @@
       "RelativeMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|solutionrelative:educore.web.repositorio\\usuarios\\usuariosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\respuesta\\trespuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\respuesta\\trespuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|d:\\devhouse\\educore.be\\educore.web.be\\controllers\\usuarios\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|solutionrelative:educore.web.be\\controllers\\usuarios\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -131,6 +202,8 @@
       "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\respuesta\\responsemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|d:\\devhouse\\educore.be\\educore.web.transversales\\constantes\\general\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\constantes\\general\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -182,7 +255,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 17,
+=======
+          "SelectedChildIndex": 16,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -219,6 +296,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+<<<<<<< Updated upstream
               "Title": "NotasBLL.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio\\Notas\\NotasBLL.cs",
               "RelativeDocumentMoniker": "EduCore.Web.Negocio\\Notas\\NotasBLL.cs",
@@ -238,12 +316,45 @@
               "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\Notas\\NotasDAL.cs",
               "RelativeToolTip": "EduCore.Web.Repositorio\\Notas\\NotasDAL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAJAAAAACAAAA",
+=======
+              "Title": "Docentes.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Docentes\\Docentes.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Entidades\\Docentes\\Docentes.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Docentes\\Docentes.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Docentes\\Docentes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:59:43.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicosDAL.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\Medicos\\MedicosDAL.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Repositorio\\Medicos\\MedicosDAL.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\Medicos\\MedicosDAL.cs",
+              "RelativeToolTip": "EduCore.Web.Repositorio\\Medicos\\MedicosDAL.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAIwH0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:53:14.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Funcionalidades.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Constantes\\General\\Funcionalidades.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Constantes\\General\\Funcionalidades.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Constantes\\General\\Funcionalidades.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Constantes\\General\\Funcionalidades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T18:11:42.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
               "Title": "IMedicosBLL.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio.Interface\\Medicos\\IMedicosBLL.cs",
@@ -251,12 +362,22 @@
               "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio.Interface\\Medicos\\IMedicosBLL.cs",
               "RelativeToolTip": "EduCore.Web.Negocio.Interface\\Medicos\\IMedicosBLL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+=======
+              "DocumentIndex": 4,
+              "Title": "ProcedimientosAlmacenados.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Constantes\\General\\ProcedimientosAlmacenados.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Constantes\\General\\ProcedimientosAlmacenados.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Constantes\\General\\ProcedimientosAlmacenados.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Constantes\\General\\ProcedimientosAlmacenados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T14:12:45.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
               "Title": "NotaDTO.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Notas\\NotaDTO.cs",
@@ -264,6 +385,15 @@
               "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Notas\\NotaDTO.cs",
               "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Notas\\NotaDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+=======
+              "DocumentIndex": 2,
+              "Title": "EnumTipoProceso.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Constantes\\General\\Enum\\EnumTipoProceso.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Constantes\\General\\Enum\\EnumTipoProceso.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Constantes\\General\\Enum\\EnumTipoProceso.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Constantes\\General\\Enum\\EnumTipoProceso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T18:07:26.587Z",
               "EditorCaption": ""
@@ -283,6 +413,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
               "Title": "MedicosDAL.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\Medicos\\MedicosDAL.cs",
@@ -290,12 +421,22 @@
               "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\Medicos\\MedicosDAL.cs",
               "RelativeToolTip": "EduCore.Web.Repositorio\\Medicos\\MedicosDAL.cs",
               "ViewState": "AQIAAGsAAAAAAAAAAAAAwJEAAAAAAAAA",
+=======
+              "DocumentIndex": 6,
+              "Title": "DocentesDTO.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Docentes\\DocentesDTO.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Entidades\\Docentes\\DocentesDTO.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Docentes\\DocentesDTO.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Docentes\\DocentesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T13:53:14.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
               "Title": "INotasBLL.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio.Interface\\Notas\\INotasBLL.cs",
@@ -306,22 +447,93 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T18:10:50.47Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\appsettings.json",
+              "RelativeDocumentMoniker": "EduCore.Web.BE\\appsettings.json",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\appsettings.json",
+              "RelativeToolTip": "EduCore.Web.BE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T15:02:31.066Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
               "Title": "NotasController.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Controllers\\Notas\\NotasController.cs",
               "RelativeDocumentMoniker": "EduCore.Web.BE\\Controllers\\Notas\\NotasController.cs",
               "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Controllers\\Notas\\NotasController.cs",
               "RelativeToolTip": "EduCore.Web.BE\\Controllers\\Notas\\NotasController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+=======
+              "Title": "MedicosDTO.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Medicos\\MedicosDTO.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Entidades\\Medicos\\MedicosDTO.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Medicos\\MedicosDTO.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Medicos\\MedicosDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:37:15.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Medicos.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Medicos\\Medicos.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Entidades\\Medicos\\Medicos.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Medicos\\Medicos.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Medicos\\Medicos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:37:07.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDocentesDAL.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\Docentes\\IDocentesDAL.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Repositorio.Interface\\Docentes\\IDocentesDAL.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\Docentes\\IDocentesDAL.cs",
+              "RelativeToolTip": "EduCore.Web.Repositorio.Interface\\Docentes\\IDocentesDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:02:23.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocentesDAL.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\Docentes\\DocentesDAL.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Repositorio\\Docentes\\DocentesDAL.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\Docentes\\DocentesDAL.cs",
+              "RelativeToolTip": "EduCore.Web.Repositorio\\Docentes\\DocentesDAL.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwFwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:07:11.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IMedicosBLL.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio.Interface\\Medicos\\IMedicosBLL.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Negocio.Interface\\Medicos\\IMedicosBLL.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio.Interface\\Medicos\\IMedicosBLL.cs",
+              "RelativeToolTip": "EduCore.Web.Negocio.Interface\\Medicos\\IMedicosBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T18:09:02.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
               "Title": "MedicoController.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Controllers\\Medicos\\MedicoController.cs",
@@ -329,12 +541,22 @@
               "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Controllers\\Medicos\\MedicoController.cs",
               "RelativeToolTip": "EduCore.Web.BE\\Controllers\\Medicos\\MedicoController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+=======
+              "DocumentIndex": 17,
+              "Title": "TRespuesta.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Respuesta\\TRespuesta.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Respuesta\\TRespuesta.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Respuesta\\TRespuesta.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Respuesta\\TRespuesta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T14:17:33.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Program.cs",
@@ -342,6 +564,15 @@
               "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Program.cs",
               "RelativeToolTip": "EduCore.Web.BE\\Program.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAABoAAAA3AAAA",
+=======
+              "DocumentIndex": 15,
+              "Title": "ResponseManager.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Respuesta\\ResponseManager.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Respuesta\\ResponseManager.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Respuesta\\ResponseManager.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Respuesta\\ResponseManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAEAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T13:00:04.117Z",
               "EditorCaption": ""
@@ -413,6 +644,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 15,
               "Title": "UsuariosDAL.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\Usuarios\\UsuariosDAL.cs",
@@ -420,12 +652,22 @@
               "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio\\Usuarios\\UsuariosDAL.cs",
               "RelativeToolTip": "EduCore.Web.Repositorio\\Usuarios\\UsuariosDAL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAmAAAA",
+=======
+              "DocumentIndex": 10,
+              "Title": "IMedicosDAL.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
+              "RelativeToolTip": "EduCore.Web.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T17:31:15.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 16,
               "Title": "TRespuesta.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Respuesta\\TRespuesta.cs",
@@ -433,12 +675,22 @@
               "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Respuesta\\TRespuesta.cs",
               "RelativeToolTip": "EduCore.Web.Transversales\\Respuesta\\TRespuesta.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+=======
+              "DocumentIndex": 13,
+              "Title": "MedicoController.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Controllers\\Medicos\\MedicoController.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.BE\\Controllers\\Medicos\\MedicoController.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Controllers\\Medicos\\MedicoController.cs",
+              "RelativeToolTip": "EduCore.Web.BE\\Controllers\\Medicos\\MedicoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T14:14:11.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 18,
               "Title": "IUsuariosBLL.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Negocio.Interface\\Usuarios\\IUsuariosBLL.cs",
@@ -620,6 +872,21 @@
             {
               "$type": "Document",
               "DocumentIndex": 32,
+=======
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Program.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.BE\\Program.cs",
+              "ToolTip": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.BE\\Program.cs",
+              "RelativeToolTip": "EduCore.Web.BE\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:00:04.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+>>>>>>> Stashed changes
               "Title": "Configuracion.cs",
               "DocumentMoniker": "D:\\DevHouse\\EduCore.BE\\EduCore.Web.Transversales\\Constantes\\General\\Configuracion.cs",
               "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Constantes\\General\\Configuracion.cs",
