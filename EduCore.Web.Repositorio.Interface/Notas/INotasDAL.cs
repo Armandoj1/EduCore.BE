@@ -1,17 +1,9 @@
 ﻿using EduCore.Web.Transversales.Entidades.Notas;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EduCore.Web.Repositorio.Interface.Notas
+namespace EduCore.Web.Repositorio.Interface;
+public interface INotasDAL
 {
-	public interface INotasDAL
-	{
-		List<Nota> Consultar(Nota obj);
-		object Eliminar(Nota obj);
-		object Insertar(NotaDTO obj);
-		object Actualizar(NotaDTO obj);
-	}
+	List<Nota> Consultar(Nota obj);
+	object Eliminar(Nota obj);
+	object Insertar(NotaDTO obj);
+	object Actualizar(NotaDTO obj);
 }

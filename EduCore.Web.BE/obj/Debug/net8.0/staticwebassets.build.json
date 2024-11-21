@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "zEPFdAjGaGuIsuCR9XNeq/+yr7OE3ClgrcCnWJrkWV8=",
+  "Hash": "NcSfReJsAqz/p9aHgDfaTX07T2QWdwvlxmO/NHWX+iE=",
   "Source": "EduCore.Web.BE",
   "BasePath": "_content/EduCore.Web.BE",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

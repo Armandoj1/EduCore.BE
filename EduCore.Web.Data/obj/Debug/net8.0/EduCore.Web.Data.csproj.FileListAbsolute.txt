@@ -23,3 +23,16 @@ C:\Users\José A. Rodríguez\Desktop\EduCore\EduCore.BE\EduCore.Web.Data\obj\Deb
 C:\Users\José A. Rodríguez\Desktop\EduCore\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\refint\EduCore.Web.Data.dll
 C:\Users\José A. Rodríguez\Desktop\EduCore\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\EduCore.Web.Data.pdb
 C:\Users\José A. Rodríguez\Desktop\EduCore\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\ref\EduCore.Web.Data.dll
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\bin\Debug\net8.0\EduCore.Web.Data.deps.json
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\bin\Debug\net8.0\EduCore.Web.Data.dll
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\bin\Debug\net8.0\EduCore.Web.Data.pdb
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\EduCore.Web.Data.csproj.AssemblyReference.cache
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\EduCore.Web.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\EduCore.Web.Data.AssemblyInfoInputs.cache
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\EduCore.Web.Data.AssemblyInfo.cs
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\EduCore.Web.Data.csproj.CoreCompileInputs.cache
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\EduCore.Web.Data.sourcelink.json
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\EduCore.Web.Data.dll
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\refint\EduCore.Web.Data.dll
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\EduCore.Web.Data.pdb
+C:\Users\José A. Rodríguez\Desktop\EduCore.BE\EduCore.Web.Data\obj\Debug\net8.0\ref\EduCore.Web.Data.dll

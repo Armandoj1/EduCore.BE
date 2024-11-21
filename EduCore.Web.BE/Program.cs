@@ -1,7 +1,14 @@
 using EduCore.Web.Negocio;
 using EduCore.Web.Negocio.Interfaces;
+using EduCore.Web.Negocio.Interfaces.Notas;
+using EduCore.Web.Negocio.Interfaces.Usuario;
+using EduCore.Web.Negocio.Notas;
+using EduCore.Web.Negocio.Usuarios;
 using EduCore.Web.Repositorio;
 using EduCore.Web.Repositorio.Interface;
+using EduCore.Web.Repositorio.Interface.Usuarios;
+using EduCore.Web.Repositorio.Usuarios;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +32,15 @@ builder.Services.AddTransient<IDocenteEspecialidadDAL, DocenteEspecialidadDAL>()
 builder.Services.AddTransient<IDocenteEspecialidadBLL, DocenteEspecialidadBLL>();
 builder.Services.AddTransient<IDocenteMateriasGradosDAL, DocenteMateriasGradosDAL>();
 builder.Services.AddTransient<IDocenteMateriasGradosBLL, DocenteMateriasGradosBLL>();
+builder.Services.AddTransient<IEstudiantesBLL, EstudiantesBLL>();
+builder.Services.AddTransient<IEstudiantesDAL, EstudiantesDAL>();
+builder.Services.AddTransient<INotasBLL, NotasBLL>();
+builder.Services.AddTransient<INotasDAL, NotasDAL>();
+builder.Services.AddTransient<IUsuariosBLL, UsuariosBLL>();
+builder.Services.AddTransient<IUsuariosDAL, UsuariosDAL>();
+builder.Services.AddTransient<IEstudiantesGradosBLL, EstudiantesGradosBLL>();
+builder.Services.AddTransient<IEstudiantesGradosDAL, EstudiantesGradosDAL>();
+
 
 var app = builder.Build();
 

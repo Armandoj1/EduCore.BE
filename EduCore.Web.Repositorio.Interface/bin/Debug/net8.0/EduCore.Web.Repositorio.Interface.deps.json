@@ -778,7 +778,10 @@
           "log4net": "2.0.15"
         },
         "runtime": {
-          "EduCore.Web.Transversales.dll": {}
+          "EduCore.Web.Transversales.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

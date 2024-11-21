@@ -1,17 +1,11 @@
 ﻿using EduCore.Web.Negocio.Interfaces.Notas;
-using EduCore.Web.Repositorio.Interface.Notas;
+using EduCore.Web.Repositorio.Interface;
 using EduCore.Web.Transversales.Constantes;
 using EduCore.Web.Transversales.Entidades.Notas;
 using EduCore.Web.Transversales.Respuesta;
 using log4net;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Net;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EduCore.Web.Negocio.Notas
 {

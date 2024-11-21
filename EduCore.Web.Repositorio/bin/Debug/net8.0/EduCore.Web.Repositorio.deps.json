@@ -861,7 +861,10 @@
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
-          "EduCore.Web.Data.dll": {}
+          "EduCore.Web.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EduCore.Web.Repositorio.Interface/1.0.0": {
@@ -869,7 +872,10 @@
           "EduCore.Web.Transversales": "1.0.0"
         },
         "runtime": {
-          "EduCore.Web.Repositorio.Interface.dll": {}
+          "EduCore.Web.Repositorio.Interface.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EduCore.Web.Transversales/1.0.0": {
@@ -880,7 +886,10 @@
           "log4net": "2.0.15"
         },
         "runtime": {
-          "EduCore.Web.Transversales.dll": {}
+          "EduCore.Web.Transversales.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

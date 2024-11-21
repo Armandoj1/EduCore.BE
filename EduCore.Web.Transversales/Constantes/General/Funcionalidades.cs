@@ -7,4 +7,8 @@ public class Funcionalidades
     public const string UTILIDADES = "Utilidades";
     public const string DOCENTE_ESPECIALIDAD = "DocenteEspecialidad";
     public const string DOCENTE_MATERIAS_GRADOS = "DocenteMateriasGrados";
+    public const string NOTAS = "Notas";
+    public const string ESTUDIANTES = "Estudiantes";
+    public const string USUARIOS = "Usuarios";
+    public const string ESTUDIANTES_GRADOS = "EstudiantesGrados";
 }

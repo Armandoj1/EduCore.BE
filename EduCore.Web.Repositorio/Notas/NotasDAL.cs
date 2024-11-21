@@ -1,23 +1,16 @@
 ﻿using Dapper;
 using EduCore.Web.Data;
-using EduCore.Web.Repositorio.Interface.Notas;
 using EduCore.Web.Transversales.Constantes.General.Enum;
 using EduCore.Web.Transversales.Constantes;
 using EduCore.Web.Transversales;
 using EduCore.Web.Transversales.Entidades.Notas;
-using EduCore.Web.Transversales.Respuesta;
 using log4net;
-using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Net;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+using EduCore.Web.Repositorio.Interface;
 
-namespace EduCore.Web.Repositorio.Notas
+namespace EduCore.Web.Repositorio
 {
 	public class NotasDAL : INotasDAL
 	{

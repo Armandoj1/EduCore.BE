@@ -10,4 +10,5 @@ public class ListadoUtilidades
     public string NombreGrado { get; set; }
     public string NombreCompleto { get; set; }
     public string CC { get; set; }  
+    public string EstudianteCC { get; set; }
 }

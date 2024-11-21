@@ -122,7 +122,6 @@ namespace EduCore.Web.Repositorio
                     parameters.Add("strTelefono", string.IsNullOrEmpty(obj.Telefono) ? null : obj.Telefono);
                     parameters.Add("strCorreo", string.IsNullOrEmpty(obj.Correo) ? null : obj.Correo);
 
-
                     var result = connection.QueryFirstOrDefault(ProcedimientosAlmacenados.CRUD_DOCENTES, parameters, commandType: CommandType.StoredProcedure);
 
                     if (result != null && (result.responseCode == 300 || result.responseCode == 301 || result.responseCode == 302))
