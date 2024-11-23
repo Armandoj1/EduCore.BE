@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {}
+    "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {}
   },
   "projects": {
-    "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
+    "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj",
+        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj",
         "projectName": "EduCore.Web.Transversales",
-        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj",
+        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj",
         "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.Web.Transversales\\obj\\",
+        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

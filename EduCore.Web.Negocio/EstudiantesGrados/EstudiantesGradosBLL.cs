@@ -28,7 +28,6 @@ namespace EduCore.Web.Negocio
                 {
                     foreach (var r in res)
                     {
-                        //Con esto haces la prueba en consola para verificar que los datos sean "correctos"
                         log.Info($"Cédula: {r.EstudianteCC}, Nombre: {r.NombreCompleto}");
                     }
                     var listadoRespuesta = (from r in res
@@ -129,13 +128,11 @@ namespace EduCore.Web.Negocio
                 }
 
                 return ResponseManager.ResponseOk(filasAfectadas, new Collection<object>() { new { key = "respuesta", val = true } });
-
-
             }
             catch (Exception ex)
             {
-                log.Error($"{Mensajes.ERROR_INSERTANDO} {Funcionalidades.ESTUDIANTES_GRADOS} BLL: {ex.Message}", ex);
-                return ResponseManager.ResponseError<object>(Mensajes.ERROR_INSERTANDO);
+                    log.Error($"{Mensajes.ERROR_INSERTANDO} {Funcionalidades.ESTUDIANTES_GRADOS} BLL: {ex.Message}", ex);
+                    return ResponseManager.ResponseError<object>(Mensajes.ERROR_INSERTANDO);
             }
         }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6OJn9JkbgQU=",
+  "dgSpecHash": "muKOjIwfUa0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj",
+  "projectFilePath": "C:\\Users\\José A. Rodríguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\epplus\\4.5.3.3\\epplus.4.5.3.3.nupkg.sha512",
     "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
