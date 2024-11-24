@@ -3,56 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.repositorio\\gradosmaterias\\gradosmateriasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|solutionrelative:educore.web.repositorio\\gradosmaterias\\gradosmateriasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.be\\controllers\\usuarios\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|solutionrelative:educore.web.be\\controllers\\usuarios\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.negocio\\gradosmateriasbll\\gradosmateriasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|solutionrelative:educore.web.negocio\\gradosmateriasbll\\gradosmateriasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.negocio\\usuarios\\usuariosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|solutionrelative:educore.web.negocio\\usuarios\\usuariosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.be\\controllers\\gradosmaterias\\gradosmateriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|solutionrelative:educore.web.be\\controllers\\gradosmaterias\\gradosmateriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.repositorio\\usuarios\\usuariosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|solutionrelative:educore.web.repositorio\\usuarios\\usuariosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.transversales\\entidades\\gradosmaterias\\gradosmateriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\entidades\\gradosmaterias\\gradosmateriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.repositorio.interface\\usuarios\\iusuariosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|solutionrelative:educore.web.repositorio.interface\\usuarios\\iusuariosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.be\\controllers\\docentemateriasgrados\\docentemateriasgradoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|solutionrelative:educore.web.be\\controllers\\docentemateriasgrados\\docentemateriasgradoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}|EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.negocio.interface\\usuarios\\iusuariosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}|EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj|solutionrelative:educore.web.negocio.interface\\usuarios\\iusuariosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.negocio\\docentemateriasgrados\\docentemateriasgradosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|solutionrelative:educore.web.negocio\\docentemateriasgrados\\docentemateriasgradosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.transversales\\entidades\\usuarios\\usuariosvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\entidades\\usuarios\\usuariosvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}|EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.negocio.interface\\gradosmaterias\\igradosmateriasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}|EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj|solutionrelative:educore.web.negocio.interface\\gradosmaterias\\igradosmateriasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}|EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.negocio.interface\\docentemateriasgrados\\idocentemateriasgradosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8343371-3A52-4ED2-8AD5-5A1F9B53F05C}|EduCore.Web.Negocio.Interface\\EduCore.Web.Negocio.Interfaces.csproj|solutionrelative:educore.web.negocio.interface\\docentemateriasgrados\\idocentemateriasgradosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.repositorio\\docentemateriasgrados\\docentemateriasgradosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B02E413-DF3C-4B76-A56A-372976A4DD34}|EduCore.Web.Repositorio\\EduCore.Web.Repositorio.csproj|solutionrelative:educore.web.repositorio\\docentemateriasgrados\\docentemateriasgradosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.repositorio.interface\\gradosmaterias\\igradosmateriasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|solutionrelative:educore.web.repositorio.interface\\gradosmaterias\\igradosmateriasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.repositorio.interface\\docentemateriasgrados\\idocentemateriasgradosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A74AD6A-C380-4C55-BDF1-5B288D99C07A}|EduCore.Web.Repositorio.Interface\\EduCore.Web.Repositorio.Interface.csproj|solutionrelative:educore.web.repositorio.interface\\docentemateriasgrados\\idocentemateriasgradosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.negocio\\estudiantesgrados\\estudiantesgradosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D35DE19-66C9-41E8-9050-65895D02D1F6}|EduCore.Web.Negocio\\EduCore.Web.Negocio.csproj|solutionrelative:educore.web.negocio\\estudiantesgrados\\estudiantesgradosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.transversales\\entidades\\usuarios\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\entidades\\usuarios\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B777F7BC-477A-4489-B958-D483668D38AA}|EduCore.Web.BE\\EduCore.Web.BE.csproj|solutionrelative:educore.web.be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\educore.be\\educore.be\\educore.web.transversales\\entidades\\usuarios\\usuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF85C7E-27A4-45F6-BD6C-D6C4918148D6}|EduCore.Web.Transversales\\EduCore.Web.Transversales.csproj|solutionrelative:educore.web.transversales\\entidades\\usuarios\\usuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,163 +82,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GradosMateriasDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\GradosMaterias\\GradosMateriasDTO.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Entidades\\GradosMaterias\\GradosMateriasDTO.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\GradosMaterias\\GradosMateriasDTO.cs",
-              "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\GradosMaterias\\GradosMateriasDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T02:56:30.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DocenteMateriasGradosController.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.BE\\Controllers\\DocenteMateriasGrados\\DocenteMateriasGradosController.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.BE\\Controllers\\DocenteMateriasGrados\\DocenteMateriasGradosController.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.BE\\Controllers\\DocenteMateriasGrados\\DocenteMateriasGradosController.cs",
-              "RelativeToolTip": "EduCore.Web.BE\\Controllers\\DocenteMateriasGrados\\DocenteMateriasGradosController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T03:24:48.701Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DocenteMateriasGradosBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio\\DocenteMateriasGrados\\DocenteMateriasGradosBLL.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Negocio\\DocenteMateriasGrados\\DocenteMateriasGradosBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio\\DocenteMateriasGrados\\DocenteMateriasGradosBLL.cs",
-              "RelativeToolTip": "EduCore.Web.Negocio\\DocenteMateriasGrados\\DocenteMateriasGradosBLL.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFUAAAAgAAAAAAAAAA==",
+              "Title": "UsuariosValidacion.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Usuarios\\UsuariosValidacion.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Entidades\\Usuarios\\UsuariosValidacion.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Usuarios\\UsuariosValidacion.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Usuarios\\UsuariosValidacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T03:23:55.942Z"
+              "WhenOpened": "2024-11-23T23:55:15.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IGradosMateriasBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio.Interface\\GradosMaterias\\IGradosMateriasBLL.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Negocio.Interface\\GradosMaterias\\IGradosMateriasBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio.Interface\\GradosMaterias\\IGradosMateriasBLL.cs",
-              "RelativeToolTip": "EduCore.Web.Negocio.Interface\\GradosMaterias\\IGradosMateriasBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Usuarios\\Usuarios.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Entidades\\Usuarios\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Usuarios\\Usuarios.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Usuarios\\Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T03:23:36.42Z"
+              "WhenOpened": "2024-11-23T23:54:23.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IDocenteMateriasGradosBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio.Interface\\DocenteMateriasGrados\\IDocenteMateriasGradosBLL.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Negocio.Interface\\DocenteMateriasGrados\\IDocenteMateriasGradosBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio.Interface\\DocenteMateriasGrados\\IDocenteMateriasGradosBLL.cs",
-              "RelativeToolTip": "EduCore.Web.Negocio.Interface\\DocenteMateriasGrados\\IDocenteMateriasGradosBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T03:23:28.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DocenteMateriasGradosDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio\\DocenteMateriasGrados\\DocenteMateriasGradosDAL.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Repositorio\\DocenteMateriasGrados\\DocenteMateriasGradosDAL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio\\DocenteMateriasGrados\\DocenteMateriasGradosDAL.cs",
-              "RelativeToolTip": "EduCore.Web.Repositorio\\DocenteMateriasGrados\\DocenteMateriasGradosDAL.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAwIcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T03:21:21.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IGradosMateriasDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\GradosMaterias\\IGradosMateriasDAL.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Repositorio.Interface\\GradosMaterias\\IGradosMateriasDAL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\GradosMaterias\\IGradosMateriasDAL.cs",
-              "RelativeToolTip": "EduCore.Web.Repositorio.Interface\\GradosMaterias\\IGradosMateriasDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T03:21:00.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IDocenteMateriasGradosDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\DocenteMateriasGrados\\IDocenteMateriasGradosDAL.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Repositorio.Interface\\DocenteMateriasGrados\\IDocenteMateriasGradosDAL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\DocenteMateriasGrados\\IDocenteMateriasGradosDAL.cs",
-              "RelativeToolTip": "EduCore.Web.Repositorio.Interface\\DocenteMateriasGrados\\IDocenteMateriasGradosDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T03:20:38.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EstudiantesGradosBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio\\EstudiantesGrados\\EstudiantesGradosBLL.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Negocio\\EstudiantesGrados\\EstudiantesGradosBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio\\EstudiantesGrados\\EstudiantesGradosBLL.cs",
-              "RelativeToolTip": "EduCore.Web.Negocio\\EstudiantesGrados\\EstudiantesGradosBLL.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:45:32.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GradosMateriasDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio\\GradosMaterias\\GradosMateriasDAL.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Repositorio\\GradosMaterias\\GradosMateriasDAL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio\\GradosMaterias\\GradosMateriasDAL.cs",
-              "RelativeToolTip": "EduCore.Web.Repositorio\\GradosMaterias\\GradosMateriasDAL.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAIAywIMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:42:58.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GradosMateriasBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio\\GradosMateriasBLL\\GradosMateriasBLL.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.Negocio\\GradosMateriasBLL\\GradosMateriasBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio\\GradosMateriasBLL\\GradosMateriasBLL.cs",
-              "RelativeToolTip": "EduCore.Web.Negocio\\GradosMateriasBLL\\GradosMateriasBLL.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAYwFUAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:35:08.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.BE\\Program.cs",
               "RelativeDocumentMoniker": "EduCore.Web.BE\\Program.cs",
               "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.BE\\Program.cs",
               "RelativeToolTip": "EduCore.Web.BE\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwCoAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:33:03.386Z"
+              "WhenOpened": "2024-11-23T23:07:15.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUsuariosDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\Usuarios\\IUsuariosDAL.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Repositorio.Interface\\Usuarios\\IUsuariosDAL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio.Interface\\Usuarios\\IUsuariosDAL.cs",
+              "RelativeToolTip": "EduCore.Web.Repositorio.Interface\\Usuarios\\IUsuariosDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T22:23:17.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuariosBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio.Interface\\Usuarios\\IUsuariosBLL.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Negocio.Interface\\Usuarios\\IUsuariosBLL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio.Interface\\Usuarios\\IUsuariosBLL.cs",
+              "RelativeToolTip": "EduCore.Web.Negocio.Interface\\Usuarios\\IUsuariosBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T22:07:58.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.BE\\Controllers\\Usuarios\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.BE\\Controllers\\Usuarios\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.BE\\Controllers\\Usuarios\\UsuarioController.cs",
+              "RelativeToolTip": "EduCore.Web.BE\\Controllers\\Usuarios\\UsuarioController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwBoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T21:50:24.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio\\Usuarios\\UsuariosBLL.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Negocio\\Usuarios\\UsuariosBLL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Negocio\\Usuarios\\UsuariosBLL.cs",
+              "RelativeToolTip": "EduCore.Web.Negocio\\Usuarios\\UsuariosBLL.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAEwBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T21:33:37.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GradosMateriasController.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.BE\\Controllers\\GradosMaterias\\GradosMateriasController.cs",
-              "RelativeDocumentMoniker": "EduCore.Web.BE\\Controllers\\GradosMaterias\\GradosMateriasController.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.BE\\Controllers\\GradosMaterias\\GradosMateriasController.cs",
-              "RelativeToolTip": "EduCore.Web.BE\\Controllers\\GradosMaterias\\GradosMateriasController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwEAAAAAJAAAAAAAAAA==",
+              "Title": "UsuariosDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio\\Usuarios\\UsuariosDAL.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Repositorio\\Usuarios\\UsuariosDAL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Repositorio\\Usuarios\\UsuariosDAL.cs",
+              "RelativeToolTip": "EduCore.Web.Repositorio\\Usuarios\\UsuariosDAL.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIAxwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:29:54.34Z",
+              "WhenOpened": "2024-11-23T18:59:39.641Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuariosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Usuarios\\UsuariosDTO.cs",
+              "RelativeDocumentMoniker": "EduCore.Web.Transversales\\Entidades\\Usuarios\\UsuariosDTO.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\EduCore.BE\\EduCore.BE\\EduCore.Web.Transversales\\Entidades\\Usuarios\\UsuariosDTO.cs",
+              "RelativeToolTip": "EduCore.Web.Transversales\\Entidades\\Usuarios\\UsuariosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T21:31:28.035Z"
             }
           ]
         }

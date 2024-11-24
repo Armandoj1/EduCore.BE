@@ -2520,15 +2520,14 @@
         ],
         "parameters": [
           {
-            "name": "usuarioID",
+            "name": "usuario",
             "in": "query",
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           },
           {
-            "name": "nombreUsuario",
+            "name": "contrasena",
             "in": "query",
             "schema": {
               "type": "string"

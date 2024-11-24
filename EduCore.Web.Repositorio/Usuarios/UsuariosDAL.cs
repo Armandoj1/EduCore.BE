@@ -1,6 +1,6 @@
 ﻿using Dapper;
 using EduCore.Web.Data;
-using EduCore.Web.Repositorio.Interface.Usuarios;
+using EduCore.Web.Repositorio.Interface;
 using EduCore.Web.Transversales.Constantes.General.Enum;
 using EduCore.Web.Transversales.Constantes;
 using EduCore.Web.Transversales;
@@ -14,9 +14,8 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using EduCore.Web.Transversales.Entidades;
-using EduCore.Web.Transversales.Entidades.Usuarios;
 
-namespace EduCore.Web.Repositorio.Usuarios
+namespace EduCore.Web.Repositorio
 {
 	public class UsuariosDAL : IUsuariosDAL
 	{
@@ -29,18 +28,18 @@ namespace EduCore.Web.Repositorio.Usuarios
 			connectionString = objConfig.GetConnectionString(Configuracion.CADENA_CONEXION_TITAN);
 		}
 
-		public List<Usuario> Consultar(Usuario obj)
+		public List<UsuariosValidacion> Consultar(UsuariosValidacion obj)
 		{
 			try
 			{
-				List<Usuario> res;
-				using (DapperManager<Usuario> dapper = new SqlConnectionFactory<Usuario>(connectionString).GetConnectionManager())
+				List<UsuariosValidacion> res;
+				using (DapperManager<UsuariosValidacion> dapper = new SqlConnectionFactory<UsuariosValidacion>(connectionString).GetConnectionManager())
 				{
 					dapper.AddParameter("intOpcion", (int)EnumTipoProceso.Consulta);
-					dapper.AddParameter("UsuarioID", obj.UsuarioID == 0 ? null : (object)obj.UsuarioID);
-					dapper.AddParameter("Usuario", string.IsNullOrEmpty(obj.NombreUsuario) ? null : obj.NombreUsuario);
+					dapper.AddParameter("strUsuario", string.IsNullOrEmpty(obj.Usuario) ? null : obj.Usuario);
+					dapper.AddParameter("strContrasena", string.IsNullOrEmpty(obj.Contrasena) ? null : obj.Contrasena);
 
-					res = dapper.GetList(ProcedimientosAlmacenados.CRUD_USUARIOS).ToList();
+                    res = dapper.GetList(ProcedimientosAlmacenados.CRUD_USUARIOS).ToList();
 				}
 
 				return res;
@@ -49,7 +48,7 @@ namespace EduCore.Web.Repositorio.Usuarios
 			{
 				string msg = $"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.USUARIOS} DAL: ";
 				log.Error(msg + ex.Message, ex);
-				return new List<Usuario> { new() { NombreUsuario = "0", Contrasena = msg + ex.Message } };
+				return new List<UsuariosValidacion> { new() { Usuario = "0", Contrasena = msg + ex.Message } };
 			}
 		}
 
@@ -116,12 +115,12 @@ namespace EduCore.Web.Repositorio.Usuarios
 			}
 		}
 
-		public object Eliminar(Usuario obj)
+		public object Eliminar(Usuarios obj)
 		{
 			try
 			{
 				int res;
-				using (DapperManager<Usuario> dapper = new SqlConnectionFactory<Usuario>(connectionString).GetConnectionManager())
+				using (DapperManager<Usuarios> dapper = new SqlConnectionFactory<Usuarios>(connectionString).GetConnectionManager())
 				{
 					dapper.AddParameter("intOpcion", (int)EnumTipoProceso.Eliminar);
 					dapper.AddParameter("UsuarioID", obj.UsuarioID);

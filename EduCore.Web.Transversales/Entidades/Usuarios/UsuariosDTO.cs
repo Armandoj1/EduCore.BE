@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EduCore.Web.Transversales.Entidades.Usuarios
+namespace EduCore.Web.Transversales.Entidades;
+
+public class UsuariosDTO
 {
-	public class UsuariosDTO
-	{
-		public int UsuarioID { get; set; }
-		public string Usuario { get; set; }
-		public string Contrasena { get; set; }
-	}
+	public int UsuarioID { get; set; }
+	public string Usuario { get; set; }
+	public string Contrasena { get; set; }
 }

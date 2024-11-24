@@ -12,4 +12,5 @@ public class Funcionalidades
     public const string USUARIOS = "Usuarios";
     public const string ESTUDIANTES_GRADOS = "EstudiantesGrados";
     public const string GRADOS_MATERIAS = "GradosMaterias";
+    public const string EVENTOS = "Eventos";
 }

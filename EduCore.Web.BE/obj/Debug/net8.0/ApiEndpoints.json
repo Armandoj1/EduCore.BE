@@ -1875,7 +1875,7 @@
     ]
   },
   {
-    "ContainingType": "EduCore.Web.BE.Controllers.Usuarios.UsuarioController",
+    "ContainingType": "EduCore.Web.BE.Controllers.UsuarioController",
     "Method": "Actualizar",
     "RelativePath": "api/Usuario/Actualizar",
     "HttpMethod": "PUT",
@@ -1884,7 +1884,7 @@
     "Parameters": [
       {
         "Name": "usuario",
-        "Type": "EduCore.Web.Transversales.Entidades.Usuarios.UsuariosDTO",
+        "Type": "EduCore.Web.Transversales.Entidades.UsuariosDTO",
         "IsRequired": true
       }
     ],
@@ -1920,7 +1920,7 @@
     ]
   },
   {
-    "ContainingType": "EduCore.Web.BE.Controllers.Usuarios.UsuarioController",
+    "ContainingType": "EduCore.Web.BE.Controllers.UsuarioController",
     "Method": "Consultar",
     "RelativePath": "api/Usuario/Consultar",
     "HttpMethod": "GET",
@@ -1928,12 +1928,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuarioID",
-        "Type": "System.Int32",
+        "Name": "usuario",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "nombreUsuario",
+        "Name": "contrasena",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -1970,7 +1970,7 @@
     ]
   },
   {
-    "ContainingType": "EduCore.Web.BE.Controllers.Usuarios.UsuarioController",
+    "ContainingType": "EduCore.Web.BE.Controllers.UsuarioController",
     "Method": "Eliminar",
     "RelativePath": "api/Usuario/Eliminar",
     "HttpMethod": "DELETE",
@@ -2015,7 +2015,7 @@
     ]
   },
   {
-    "ContainingType": "EduCore.Web.BE.Controllers.Usuarios.UsuarioController",
+    "ContainingType": "EduCore.Web.BE.Controllers.UsuarioController",
     "Method": "Insertar",
     "RelativePath": "api/Usuario/Insertar",
     "HttpMethod": "POST",
@@ -2024,7 +2024,7 @@
     "Parameters": [
       {
         "Name": "usuario",
-        "Type": "EduCore.Web.Transversales.Entidades.Usuarios.UsuariosDTO",
+        "Type": "EduCore.Web.Transversales.Entidades.UsuariosDTO",
         "IsRequired": true
       }
     ],

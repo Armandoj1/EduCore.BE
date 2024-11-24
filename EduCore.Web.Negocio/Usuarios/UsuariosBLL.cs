@@ -1,7 +1,7 @@
-﻿using EduCore.Web.Negocio.Interfaces.Usuario;
-using EduCore.Web.Repositorio.Interface.Usuarios;
+﻿using EduCore.Web.Negocio.Interfaces;
+using EduCore.Web.Repositorio.Interface;
 using EduCore.Web.Transversales.Constantes;
-using EduCore.Web.Transversales.Entidades.Usuarios;
+using EduCore.Web.Transversales.Entidades;
 using EduCore.Web.Transversales.Respuesta;
 using log4net;
 using System;
@@ -12,7 +12,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EduCore.Web.Negocio.Usuarios
+namespace EduCore.Web.Negocio
 {
 	public class UsuariosBLL : IUsuariosBLL
 	{
@@ -21,21 +21,21 @@ namespace EduCore.Web.Negocio.Usuarios
 
 		public UsuariosBLL(IUsuariosDAL objDAL) => _objDAL = objDAL;
 
-		public TRespuesta<object> Consultar(Usuario usuario)
+		public TRespuesta<object> Consultar(UsuariosValidacion usuario)
 		{
 			Collection<object> resCollection = new Collection<object>();
 			try
 			{
-				List<Usuario> res = _objDAL.Consultar(usuario);
+				List<UsuariosValidacion> res = _objDAL.Consultar(usuario);
 
 				if (res != null)
 				{
 					var listadoRespuesta = (from r in res
 											select new
 											{
-												r.UsuarioID,
-												r.NombreUsuario,
-												r.Contrasena
+												r.Usuario,
+												r.Contrasena,
+												r.NombreRol
 											}).ToList();
 					resCollection = new Collection<object>(listadoRespuesta.Cast<object>().ToList());
 				}
@@ -108,7 +108,7 @@ namespace EduCore.Web.Negocio.Usuarios
 			}
 		}
 
-		public TRespuesta<object> Eliminar(Usuario usuario)
+		public TRespuesta<object> Eliminar(Usuarios usuario)
 		{
 			try
 			{

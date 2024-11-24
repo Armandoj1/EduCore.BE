@@ -1,10 +1,9 @@
-﻿using EduCore.Web.Negocio.Interfaces.Usuario;
-using EduCore.Web.Negocio.Usuarios;
-using EduCore.Web.Transversales.Entidades.Usuarios;
+﻿using EduCore.Web.Negocio.Interfaces;
+using EduCore.Web.Transversales.Entidades;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-namespace EduCore.Web.BE.Controllers.Usuarios
+namespace EduCore.Web.BE.Controllers
 {
 	[ApiController, Route("api/[controller]")]
 	public class UsuarioController : ControllerBase
@@ -18,20 +17,20 @@ namespace EduCore.Web.BE.Controllers.Usuarios
 
 		[ProducesResponseType(200), ProducesResponseType(400), ProducesResponseType(401), ProducesResponseType(403)]
 		[HttpGet("[action]"), Produces("application/json", Type = typeof(object))]
-		public IActionResult Consultar(int usuarioID, string nombreUsuario)
+		public IActionResult Consultar(string usuario, string contrasena)
 		{
-			if (string.IsNullOrEmpty(nombreUsuario) && usuarioID == 0)
+			if (string.IsNullOrEmpty(usuario) && (string.IsNullOrEmpty(contrasena)))
 			{
 				return BadRequest(new { error = "Se debe proporcionar al menos uno de los parámetros: usuarioID o nombreUsuario." });
 			}
 
-			Usuario usuario = new()
+			UsuariosValidacion usuarios = new()
 			{
-				UsuarioID = usuarioID,
-				NombreUsuario = nombreUsuario
+				Contrasena = contrasena,
+				Usuario = usuario
 			};
 
-			var response = _usuarioBLL?.Consultar(usuario);
+			var response = _usuarioBLL?.Consultar(usuarios);
 
 			// Verificamos el ResponseCode correctamente
 			return response?.ResponseCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);
@@ -76,12 +75,12 @@ namespace EduCore.Web.BE.Controllers.Usuarios
 				return BadRequest(new { error = "El usuarioID es obligatorio." });
 			}
 
-			Usuario usuario = new()
-			{
-				UsuarioID = usuarioID
-			};
+			Usuarios usuarios = new()
+            {
+                UsuarioID = usuarioID
+            };
 
-			var response = _usuarioBLL?.Eliminar(usuario);
+            var response = _usuarioBLL?.Eliminar(usuarios);
 
 			// Verificamos el ResponseCode correctamente
 			return response?.ResponseCode == HttpStatusCode.OK ? Ok(response) : BadRequest(response);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EduCore.Web.Negocio.Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82806b1b4287d4881ab443a4bc232ea95a3d7c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2f097d86b62e56af23c3ff50cf1eef71f038b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("EduCore.Web.Negocio.Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EduCore.Web.Negocio.Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

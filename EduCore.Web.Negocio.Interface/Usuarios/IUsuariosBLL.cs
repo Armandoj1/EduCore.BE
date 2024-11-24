@@ -1,4 +1,4 @@
-﻿using EduCore.Web.Transversales.Entidades.Usuarios;
+﻿using EduCore.Web.Transversales.Entidades;
 using EduCore.Web.Transversales.Respuesta;
 using System;
 using System.Collections.Generic;
@@ -7,13 +7,12 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EduCore.Web.Negocio.Interfaces.Usuario
+namespace EduCore.Web.Negocio.Interfaces;
+
+public interface IUsuariosBLL
 {
-	public interface IUsuariosBLL
-	{
-		TRespuesta<object> Consultar(EduCore.Web.Transversales.Entidades.Usuarios.Usuario objInsumo);
-		TRespuesta<object> Insertar(UsuariosDTO objInsumo);
-		TRespuesta<object> Actualizar(UsuariosDTO objInsumo);
-		TRespuesta<object> Eliminar(EduCore.Web.Transversales.Entidades.Usuarios.Usuario objInsumo);
-	}
+	TRespuesta<object> Consultar(UsuariosValidacion objInsumo);
+	TRespuesta<object> Insertar(UsuariosDTO objInsumo);
+	TRespuesta<object> Actualizar(UsuariosDTO objInsumo);
+	TRespuesta<object> Eliminar(Usuarios objInsumo);
 }
