@@ -1,4 +1,6 @@
-﻿namespace EduCore.Web.Transversales.Constantes;
+﻿using System.Security.Permissions;
+
+namespace EduCore.Web.Transversales.Constantes;
 
 public class Funcionalidades
 {
@@ -13,4 +15,5 @@ public class Funcionalidades
     public const string ESTUDIANTES_GRADOS = "EstudiantesGrados";
     public const string GRADOS_MATERIAS = "GradosMaterias";
     public const string EVENTOS = "Eventos";
+    public const string CONSULTAR_NOTAS = "ConsultarNotas";
 }

@@ -40,6 +40,8 @@ builder.Services.AddTransient<IGradosMateriasBLL, GradosMateriasBLL>();
 builder.Services.AddTransient<IGradosMateriasDAL, GradosMateriasDAL>();
 builder.Services.AddTransient<IEventosBLL, EventosBLL>();
 builder.Services.AddTransient<IEventosDAL, EventosDAL>();
+builder.Services.AddTransient<IConsultarNotasBLL, ConsultarNotasBLL>();
+builder.Services.AddTransient<IConsultarNotasDAL, ConsultarNotasDAL>();
 
 var app = builder.Build();
 
