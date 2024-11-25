@@ -4,8 +4,11 @@ namespace EduCore.Web.Repositorio.Interface;
 
 public interface IEventosDAL
 {
-    List<Eventos> Consultar(Eventos objInsumo);          // Método para consultar eventos
-    object Eliminar(Eventos objInsumo);                   // Método para eliminar un evento
-    object Insertar(EventosDTO objInsumo);                // Método para insertar un evento
-    object Actualizar(EventosDTO objInsumo);              // Método para actualizar un evento
+    List<Eventos> Consultar(Eventos objInsumo);      
+    List<ListadoUtilidades> ConsultarEstudiantes (ListadoUtilidades objInsumo); 
+    List<ListadoUtilidades> ConsultarTiposEventos(ListadoUtilidades objInsumo); 
+    List<ListadoUtilidades> ConsultarGrados(ListadoUtilidades objInsumo);
+    object Eliminar(Eventos objInsumo);                   
+    object Insertar(EventosDTO objInsumo);                
+    object Actualizar(EventosUpdateDTO objInsumo);              
 }

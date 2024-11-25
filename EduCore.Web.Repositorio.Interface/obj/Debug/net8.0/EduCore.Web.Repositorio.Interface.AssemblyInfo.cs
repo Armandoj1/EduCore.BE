@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EduCore.Web.Repositorio.Interface")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2f097d86b62e56af23c3ff50cf1eef71f038b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bf8c9c275baa08215b4402f5b46f0daaecb67b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("EduCore.Web.Repositorio.Interface")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EduCore.Web.Repositorio.Interface")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

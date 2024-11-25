@@ -9,6 +9,8 @@ public class ListadoUtilidades
     public int GradoID { get; set; }
     public string NombreGrado { get; set; }
     public string NombreCompleto { get; set; }
-    public string CC { get; set; }  
+    public string CC { get; set; }
     public string EstudianteCC { get; set; }
+    public int TipoEventoID { get; set; }
+    public string Nombre { get; set; }
 }

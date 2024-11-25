@@ -133,7 +133,7 @@ namespace EduCore.Web.Negocio
 
                     return ResponseManager.ResponseOk(Convert.ToInt32(res?.GetType().GetProperty("filas")?.GetValue(res, null)), procesoExitoso
                         ? new Collection<object> { new { key = "respuesta", val = res } }
-                        : new Collection<object> { new { key = "respuesta", val = new { CC = 0, exitoso = false, error = Mensajes.INFORMACION_INCOMPLETA } } });
+                        : new Collection<object> { new { key = "respuesta", val = new { CC = 0, exitoso = false, error = string.Empty } } });
                 }
                 else
                 {

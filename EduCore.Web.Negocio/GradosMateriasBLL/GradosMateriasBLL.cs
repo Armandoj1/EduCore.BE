@@ -165,7 +165,7 @@ namespace EduCore.Web.Negocio
         {
             try
             {
-                if (objInsumo.GradoID == 0 || objInsumo.MateriaID != string.Empty)
+                if (objInsumo.GradoID != 0 || objInsumo.MateriaID != string.Empty)
                 {
                     var res = _gradosMateriasDAL.Eliminar(objInsumo);
                     bool procesoExitoso = Convert.ToBoolean(res?.GetType().GetProperty("exitoso")?.GetValue(res, null));

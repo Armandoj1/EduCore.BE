@@ -30,6 +30,7 @@ namespace EduCore.Web.Repositorio
                 List<Eventos> res;
                 using DapperManager<Eventos> dapper = new SqlConnectionFactory<Eventos>(_connectionString).GetConnectionManager();
                 dapper.AddParameter("intOpcion", (int)EnumTipoProceso.Consulta);
+                dapper.AddParameter("UsuarioCreadorID", eventos.UsuarioCreadorID);
                 res = dapper.GetList(ProcedimientosAlmacenados.CRUD_EVENTOS).ToList();
                 return res;
             }
@@ -38,6 +39,61 @@ namespace EduCore.Web.Repositorio
                 string msg = $"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.EVENTOS} DAL: ";
                 log.Error(msg + ex.Message, ex);
                 return new List<Eventos> { new() { Titulo = string.Empty, Descripcion = msg + ex.Message } };
+            }
+        }
+        
+        public List<ListadoUtilidades> ConsultarEstudiantes(ListadoUtilidades listadoUtilidades)
+        {
+            try
+            {
+
+                List<ListadoUtilidades> res;
+                using DapperManager<ListadoUtilidades> dapper = new SqlConnectionFactory<ListadoUtilidades>(_connectionString).GetConnectionManager();
+                dapper.AddParameter("intOpcion", 6);
+                res = dapper.GetList(ProcedimientosAlmacenados.CRUD_UTILIDADES).ToList();
+                return res;
+            }
+            catch (Exception ex)
+            {
+                string msg = $"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.EVENTOS} DAL: ";
+                log.Error(msg + ex.Message, ex);
+                return new List<ListadoUtilidades> { new() { EstudianteCC = string.Empty, NombreCompleto = msg + ex.Message } };
+            }
+        }
+
+        public List<ListadoUtilidades> ConsultarTiposEventos(ListadoUtilidades listadoUtilidades)
+        {
+            try
+            {
+                List<ListadoUtilidades> res;
+                using DapperManager<ListadoUtilidades> dapper = new SqlConnectionFactory<ListadoUtilidades>(_connectionString).GetConnectionManager();
+                dapper.AddParameter("intOpcion", 7);
+                res = dapper.GetList(ProcedimientosAlmacenados.CRUD_UTILIDADES).ToList();
+                return res;
+            }
+            catch (Exception ex)
+            {
+                string msg = $"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.EVENTOS} DAL: ";
+                log.Error(msg + ex.Message, ex);
+                return new List<ListadoUtilidades> { new() { TipoEventoID = 0, Nombre = msg + ex.Message } };
+            }
+        }
+
+        public List<ListadoUtilidades> ConsultarGrados(ListadoUtilidades listadoUtilidades)
+        {
+            try
+            {
+                List<ListadoUtilidades> res;
+                using DapperManager<ListadoUtilidades> dapper = new SqlConnectionFactory<ListadoUtilidades>(_connectionString).GetConnectionManager();
+                dapper.AddParameter("intOpcion", 3);
+                res = dapper.GetList(ProcedimientosAlmacenados.CRUD_UTILIDADES).ToList();
+                return res;
+            }
+            catch (Exception ex)
+            {
+                string msg = $"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.EVENTOS} DAL: ";
+                log.Error(msg + ex.Message, ex);
+                return new List<ListadoUtilidades> { new() { GradoID = 0, NombreGrado = msg + ex.Message } };
             }
         }
 
@@ -54,8 +110,8 @@ namespace EduCore.Web.Repositorio
                     parameters.Add("@Descripcion", eventos.Descripcion);
                     parameters.Add("@FechaInicio", eventos.FechaInicio);
                     parameters.Add("@FechaFin", eventos.FechaFin);
-                    parameters.Add("TipoEvento", eventos.TipoEventoID);
-                    parameters.Add("@UsuarioCreadorID", eventos.UsuarioCredorID);
+                    parameters.Add("@TipoEvento", eventos.TipoEventoID);
+                    parameters.Add("@UsuarioCreadorID", eventos.UsuarioCreadorID);
 
                     var result = connection.QueryFirstOrDefault(ProcedimientosAlmacenados.CRUD_EVENTOS, parameters, commandType: CommandType.StoredProcedure);
 
@@ -77,8 +133,7 @@ namespace EduCore.Web.Repositorio
             }
         }
 
-
-        public object Actualizar(EventosDTO eventos)
+        public object Actualizar(EventosUpdateDTO eventos)
         {
             try
             {
@@ -87,12 +142,14 @@ namespace EduCore.Web.Repositorio
                     connection.Open();
                     var parameters = new DynamicParameters();
                     parameters.Add("@intOpcion", (int)EnumTipoProceso.Actualizar);
+                    parameters.Add("EventoID", eventos.EventoID);
                     parameters.Add("@Titulo", eventos.Titulo);
                     parameters.Add("@Descripcion", eventos.Descripcion);
                     parameters.Add("@FechaInicio", eventos.FechaInicio);
                     parameters.Add("@FechaFin", eventos.FechaFin);
                     parameters.Add("TipoEvento", eventos.TipoEventoID);
-                    parameters.Add("@UsuarioCreadorID", eventos.UsuarioCredorID);
+                    parameters.Add("GradoIDs", eventos.GradoID);
+                    parameters.Add("@UsuarioCreadorID", eventos.UsuarioCreadorID);
                     var result = connection.QueryFirstOrDefault(ProcedimientosAlmacenados.CRUD_EVENTOS, parameters, commandType: CommandType.StoredProcedure);
                     if (result != null && (result.responseCode == 300 || result.responseCode == 301 || result.responseCode == 302))
                     {
