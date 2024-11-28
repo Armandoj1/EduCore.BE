@@ -8,5 +8,5 @@ public class EventosDTO
     public DateTime FechaFin { get; set; }
     public string UsuarioCreadorID { get; set; }
     public int TipoEventoID { get; set; }   
-    public int GradoID { get; set; }
+    public int? GradoID { get; set; }
 }

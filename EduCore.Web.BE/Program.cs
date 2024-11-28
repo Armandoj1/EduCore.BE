@@ -1,7 +1,5 @@
 using EduCore.Web.Negocio;
 using EduCore.Web.Negocio.Interfaces;
-using EduCore.Web.Negocio.Interfaces.Notas;
-using EduCore.Web.Negocio.Notas;
 using EduCore.Web.Repositorio;
 using EduCore.Web.Repositorio.Interface;
 
@@ -42,6 +40,8 @@ builder.Services.AddTransient<IEventosBLL, EventosBLL>();
 builder.Services.AddTransient<IEventosDAL, EventosDAL>();
 builder.Services.AddTransient<IConsultarNotasBLL, ConsultarNotasBLL>();
 builder.Services.AddTransient<IConsultarNotasDAL, ConsultarNotasDAL>();
+builder.Services.AddTransient<IDatosUsuariosBLL, DatosUsuariosBLL>();
+builder.Services.AddTransient<IDatosUsuariosDAL, DatosUsuariosDAL>();
 
 var app = builder.Build();
 

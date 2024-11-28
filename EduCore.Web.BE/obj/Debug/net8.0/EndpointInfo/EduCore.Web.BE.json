@@ -126,6 +126,71 @@
         }
       }
     },
+    "/api/ConsultarNotas/ConsultarNotasGradosID": {
+      "get": {
+        "tags": [
+          "ConsultarNotas"
+        ],
+        "parameters": [
+          {
+            "name": "GradoID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "MateriaID",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/ConsultarNotas/ConsultarGradosDocentes": {
       "get": {
         "tags": [
@@ -234,6 +299,186 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/ActualizarDocente": {
+      "put": {
+        "tags": [
+          "DatosUsuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatosUsuarios"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatosUsuarios"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatosUsuarios"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    },
+    "/ActualizarDirectivo": {
+      "put": {
+        "tags": [
+          "DatosUsuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatosUsuarios"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatosUsuarios"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatosUsuarios"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    },
+    "/ActualizarEstudiante": {
+      "put": {
+        "tags": [
+          "DatosUsuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatosUsuarios"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatosUsuarios"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatosUsuarios"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    },
+    "/ActualizarContrasena": {
+      "put": {
+        "tags": [
+          "DatosUsuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarContrasena"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarContrasena"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarContrasena"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
           }
         }
       }
@@ -2918,63 +3163,6 @@
         }
       }
     },
-    "/api/Notas/Consultar": {
-      "get": {
-        "tags": [
-          "Notas"
-        ],
-        "parameters": [
-          {
-            "name": "notaID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": { }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/Notas/Insertar": {
       "post": {
         "tags": [
@@ -2984,17 +3172,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NotaDTO"
+                "$ref": "#/components/schemas/Nota"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/NotaDTO"
+                "$ref": "#/components/schemas/Nota"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/NotaDTO"
+                "$ref": "#/components/schemas/Nota"
               }
             }
           }
@@ -3050,17 +3238,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NotaDTO"
+                "$ref": "#/components/schemas/Nota"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/NotaDTO"
+                "$ref": "#/components/schemas/Nota"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/NotaDTO"
+                "$ref": "#/components/schemas/Nota"
               }
             }
           }
@@ -3107,18 +3295,139 @@
         }
       }
     },
-    "/api/Notas/Eliminar": {
-      "delete": {
+    "/api/Notas/HabilitarPeriodo": {
+      "put": {
+        "tags": [
+          "Notas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PeriodoVigente"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PeriodoVigente"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PeriodoVigente"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Notas/ConsultarPeriodoVigente": {
+      "get": {
         "tags": [
           "Notas"
         ],
         "parameters": [
           {
-            "name": "notaID",
+            "name": "PeriodoID",
             "in": "query",
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Notas/VerPeriodos": {
+      "get": {
+        "tags": [
+          "Notas"
+        ],
+        "parameters": [
+          {
+            "name": "PeriodoID",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -3458,6 +3767,54 @@
   },
   "components": {
     "schemas": {
+      "ActualizarContrasena": {
+        "type": "object",
+        "properties": {
+          "cc": {
+            "type": "string",
+            "nullable": true
+          },
+          "contrasena": {
+            "type": "string",
+            "nullable": true
+          },
+          "contrasenaActual": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DatosUsuarios": {
+        "type": "object",
+        "properties": {
+          "cc": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombreCompleto": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "nullable": true
+          },
+          "correo": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "DocenteEspecialidadDTO": {
         "type": "object",
         "properties": {
@@ -3593,7 +3950,8 @@
           },
           "gradoID": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -3631,7 +3989,8 @@
           },
           "gradoID": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -3698,7 +4057,7 @@
         },
         "additionalProperties": false
       },
-      "NotaDTO": {
+      "Nota": {
         "type": "object",
         "properties": {
           "estudianteCC": {
@@ -3716,10 +4075,20 @@
           "notaValor": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PeriodoVigente": {
+        "type": "object",
+        "properties": {
+          "estado": {
+            "type": "integer",
+            "format": "int32"
           },
-          "observacion": {
-            "type": "string",
-            "nullable": true
+          "periodoVigenteID": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

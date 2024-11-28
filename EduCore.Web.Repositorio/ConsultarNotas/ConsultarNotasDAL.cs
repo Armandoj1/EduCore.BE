@@ -60,6 +60,28 @@ namespace EduCore.Web.Repositorio
 
         }
 
+        public List<ConsultarNotas> ConsultarGradosNotasID(ConsultarNotas objInsumo)
+        {
+            try
+            {
+                List<ConsultarNotas> res;
+                using DapperManager<ConsultarNotas> dapper = new SqlConnectionFactory<ConsultarNotas>(_connectionString).GetConnectionManager();
+                dapper.AddParameter("intOpcion", 3);
+                dapper.AddParameter("GradoID", objInsumo.GradoID);
+                dapper.AddParameter("MateriaID", objInsumo.MateriaID);
+                res = dapper.GetList(ProcedimientosAlmacenados.CRUD_CONSULTAR_NOTAS).ToList();
+                return res;
+
+            }
+            catch (Exception ex)
+            {
+                string msg = $"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.CONSULTAR_NOTAS} DAL: ";
+                log.Error(msg + ex.Message, ex);
+                return new List<ConsultarNotas> { new() { EstudianteCC = string.Empty, NombreEstudiante = msg + ex.Message } };
+            }
+
+        }
+
         public List<ListadoUtilidades> ConsultarGradosDocentes(ListadoUtilidades objInsumo)
         {
             try

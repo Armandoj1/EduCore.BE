@@ -1,5 +1,161 @@
 [
   {
+    "ContainingType": "EduCore.Web.BE.Controllers.DatosUsuariosController",
+    "Method": "ActualizarContrasena",
+    "RelativePath": "ActualizarContrasena",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objInsumo",
+        "Type": "EduCore.Web.Transversales.Entidades.ActualizarContrasena",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 403
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduCore.Web.BE.Controllers.DatosUsuariosController",
+    "Method": "ActualizarDirectivo",
+    "RelativePath": "ActualizarDirectivo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objInsumo",
+        "Type": "EduCore.Web.Transversales.Entidades.DatosUsuarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 403
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduCore.Web.BE.Controllers.DatosUsuariosController",
+    "Method": "ActualizarDocente",
+    "RelativePath": "ActualizarDocente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objInsumo",
+        "Type": "EduCore.Web.Transversales.Entidades.DatosUsuarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 403
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduCore.Web.BE.Controllers.DatosUsuariosController",
+    "Method": "ActualizarEstudiante",
+    "RelativePath": "ActualizarEstudiante",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objInsumo",
+        "Type": "EduCore.Web.Transversales.Entidades.DatosUsuarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 403
+      }
+    ]
+  },
+  {
     "ContainingType": "EduCore.Web.BE.Controllers.ConsultarNotasController",
     "Method": "ConsultarGradosDocentes",
     "RelativePath": "api/ConsultarNotas/ConsultarGradosDocentes",
@@ -138,6 +294,56 @@
     "ContainingType": "EduCore.Web.BE.Controllers.ConsultarNotasController",
     "Method": "ConsultarNotasGrados",
     "RelativePath": "api/ConsultarNotas/ConsultarNotasGrados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GradoID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MateriaID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 403
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduCore.Web.BE.Controllers.ConsultarNotasController",
+    "Method": "ConsultarNotasGradosID",
+    "RelativePath": "api/ConsultarNotas/ConsultarNotasGradosID",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -2204,7 +2410,7 @@
     "Parameters": [
       {
         "Name": "notaActualizada",
-        "Type": "EduCore.Web.Transversales.Entidades.Notas.NotaDTO",
+        "Type": "EduCore.Web.Transversales.Entidades.Nota",
         "IsRequired": true
       }
     ],
@@ -2241,15 +2447,15 @@
   },
   {
     "ContainingType": "EduCore.Web.BE.Controllers.Notas.NotasController",
-    "Method": "Consultar",
-    "RelativePath": "api/Notas/Consultar",
+    "Method": "ConsultarPeriodoVigente",
+    "RelativePath": "api/Notas/ConsultarPeriodoVigente",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "notaID",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "PeriodoID",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -2286,16 +2492,16 @@
   },
   {
     "ContainingType": "EduCore.Web.BE.Controllers.Notas.NotasController",
-    "Method": "Eliminar",
-    "RelativePath": "api/Notas/Eliminar",
-    "HttpMethod": "DELETE",
+    "Method": "HabilitarPeriodo",
+    "RelativePath": "api/Notas/HabilitarPeriodo",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "notaID",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "periodoVigente",
+        "Type": "EduCore.Web.Transversales.Entidades.PeriodoVigente",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -2339,8 +2545,53 @@
     "Parameters": [
       {
         "Name": "nuevaNota",
-        "Type": "EduCore.Web.Transversales.Entidades.Notas.NotaDTO",
+        "Type": "EduCore.Web.Transversales.Entidades.Nota",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 403
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduCore.Web.BE.Controllers.Notas.NotasController",
+    "Method": "VerPeriodos",
+    "RelativePath": "api/Notas/VerPeriodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PeriodoID",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

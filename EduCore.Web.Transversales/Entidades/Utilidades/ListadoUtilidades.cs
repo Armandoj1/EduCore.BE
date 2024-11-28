@@ -13,4 +13,7 @@ public class ListadoUtilidades
     public string EstudianteCC { get; set; }
     public int TipoEventoID { get; set; }
     public string Nombre { get; set; }
+    public int PeriodoVigenteID { get; set; }
+    
+    public string NombrePeriodo { get; set; }
 }

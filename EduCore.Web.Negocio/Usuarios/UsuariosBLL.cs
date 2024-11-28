@@ -4,13 +4,9 @@ using EduCore.Web.Transversales.Constantes;
 using EduCore.Web.Transversales.Entidades;
 using EduCore.Web.Transversales.Respuesta;
 using log4net;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace EduCore.Web.Negocio
 {
@@ -35,8 +31,15 @@ namespace EduCore.Web.Negocio
 											{
 												r.Usuario,
 												r.Contrasena,
-												r.NombreRol
-											}).ToList();
+												r.NombreRol,
+												r.CC, 
+												r.NombreCompleto,
+                                                r.FechaNacimiento,
+												r.Direccion,
+                                                r.Telefono,
+												r.Edad,
+                                                r.Correo
+                                            }).ToList();
 					resCollection = new Collection<object>(listadoRespuesta.Cast<object>().ToList());
 				}
 

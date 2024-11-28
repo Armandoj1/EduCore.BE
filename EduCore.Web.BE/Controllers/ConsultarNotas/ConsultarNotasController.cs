@@ -39,6 +39,19 @@ namespace EduCore.Web.BE.Controllers
 
         [ProducesResponseType(200), ProducesResponseType(400), ProducesResponseType(401), ProducesResponseType(403)]
         [HttpGet("[action]"), Produces("application/json", Type = typeof(object))]
+        public IActionResult ConsultarNotasGradosID([FromQuery] int GradoID = 0, string? MateriaID = null)
+        {
+            ConsultarNotas filtro = new()
+            {
+                GradoID = GradoID,
+                MateriaID = MateriaID
+            };
+            var response = _consultarNotasBLL?.ConsultarGradosNotasID(filtro);
+            return response?.ResponseCode == System.Net.HttpStatusCode.OK ? Ok(response) : BadRequest(response);
+        }
+
+        [ProducesResponseType(200), ProducesResponseType(400), ProducesResponseType(401), ProducesResponseType(403)]
+        [HttpGet("[action]"), Produces("application/json", Type = typeof(object))]
         public IActionResult ConsultarGradosDocentes([FromQuery] string? DocenteCC = null)
         {
             ListadoUtilidades filtro = new()

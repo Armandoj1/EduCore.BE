@@ -3,12 +3,12 @@ using EduCore.Web.Data;
 using EduCore.Web.Transversales.Constantes.General.Enum;
 using EduCore.Web.Transversales.Constantes;
 using EduCore.Web.Transversales;
-using EduCore.Web.Transversales.Entidades.Notas;
 using log4net;
 using System.Data;
 using System.Data.SqlClient;
 using System.Reflection;
 using EduCore.Web.Repositorio.Interface;
+using EduCore.Web.Transversales.Entidades;
 
 namespace EduCore.Web.Repositorio
 {
@@ -23,29 +23,7 @@ namespace EduCore.Web.Repositorio
 			connectionString = objConfig.GetConnectionString(Configuracion.CADENA_CONEXION_TITAN);
 		}
 
-		public List<Nota> Consultar(Nota objInsumo)
-		{
-			try
-			{
-				List<Nota> res;
-				using DapperManager<Nota> dapper = new SqlConnectionFactory<Nota>(connectionString).GetConnectionManager();
-				dapper.AddParameter("intOpcion", (int)EnumTipoProceso.Consulta);
-				dapper.AddParameter("strEstudianteCC", string.IsNullOrEmpty(objInsumo.EstudianteCC) ? null : objInsumo.EstudianteCC);
-				dapper.AddParameter("strMateriaID", string.IsNullOrEmpty(objInsumo.MateriaID) ? null : objInsumo.MateriaID);
-				dapper.AddParameter("intPeriodoID", objInsumo.PeriodoID == 0 ? null : objInsumo.PeriodoID);
-
-				res = dapper.GetList(ProcedimientosAlmacenados.CRUD_NOTAS).ToList();
-				return res;
-			}
-			catch (Exception ex)
-			{
-				string msg = $"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.NOTAS} DAL: ";
-				log.Error(msg + ex.Message, ex);
-				return new List<Nota> { new() { NotaID = 0, Observacion = msg + ex.Message } };
-			}
-		}
-
-		public object Insertar(NotaDTO objInsumo)
+		public object Insertar(Nota objInsumo)
 		{
 			try
 			{
@@ -53,12 +31,11 @@ namespace EduCore.Web.Repositorio
 				{
 					connection.Open();
 					var parameters = new DynamicParameters();
-					parameters.Add("intOpcion", (int)EnumTipoProceso.Insertar);
-					parameters.Add("strEstudianteCC", string.IsNullOrEmpty(objInsumo.EstudianteCC) ? null : objInsumo.EstudianteCC);
-					parameters.Add("strMateriaID", string.IsNullOrEmpty(objInsumo.MateriaID) ? null : objInsumo.MateriaID);
-					parameters.Add("intPeriodoID", objInsumo.PeriodoID);
-					parameters.Add("decimalNotaValor", objInsumo.NotaValor);
-					parameters.Add("strObservacion", string.IsNullOrEmpty(objInsumo.Observacion) ? null : objInsumo.Observacion);
+					parameters.Add("intOpcion", 1);
+					parameters.Add("EstudianteCC", string.IsNullOrEmpty(objInsumo.EstudianteCC) ? null : objInsumo.EstudianteCC);
+					parameters.Add("MateriaID", string.IsNullOrEmpty(objInsumo.MateriaID) ? null : objInsumo.MateriaID);
+					parameters.Add("PeriodoID", objInsumo.PeriodoID);
+					parameters.Add("Nota", objInsumo.NotaValor);
 
 					var result = connection.QueryFirstOrDefault(ProcedimientosAlmacenados.CRUD_NOTAS, parameters, commandType: CommandType.StoredProcedure);
 
@@ -79,7 +56,7 @@ namespace EduCore.Web.Repositorio
 			}
 		}
 
-		public object Actualizar(NotaDTO objInsumo)
+		public object Actualizar(Nota objInsumo)
 		{
 			try
 			{
@@ -87,12 +64,11 @@ namespace EduCore.Web.Repositorio
 				{
 					connection.Open();
 					var parameters = new DynamicParameters();
-					parameters.Add("intOpcion", (int)EnumTipoProceso.Actualizar);
-					parameters.Add("strEstudianteCC", string.IsNullOrEmpty(objInsumo.EstudianteCC) ? null : objInsumo.EstudianteCC);
-					parameters.Add("strMateriaID", string.IsNullOrEmpty(objInsumo.MateriaID) ? null : objInsumo.MateriaID);
-					parameters.Add("intPeriodoID", objInsumo.PeriodoID);
-					parameters.Add("decimalNotaValor", objInsumo.NotaValor);
-					parameters.Add("strObservacion", string.IsNullOrEmpty(objInsumo.Observacion) ? null : objInsumo.Observacion);
+					parameters.Add("intOpcion", 2);
+					parameters.Add("EstudianteCC", string.IsNullOrEmpty(objInsumo.EstudianteCC) ? null : objInsumo.EstudianteCC);
+					parameters.Add("MateriaID", string.IsNullOrEmpty(objInsumo.MateriaID) ? null : objInsumo.MateriaID);
+					parameters.Add("PeriodoID", objInsumo.PeriodoID);
+					parameters.Add("Nota", objInsumo.NotaValor);
 
 					var result = connection.QueryFirstOrDefault(ProcedimientosAlmacenados.CRUD_NOTAS, parameters, commandType: CommandType.StoredProcedure);
 
@@ -112,28 +88,74 @@ namespace EduCore.Web.Repositorio
 				return new { filas = 0, exitoso = false, error = msg + ex.Message };
 			}
 		}
-
-		public object Eliminar(Nota objInsumo)
+	
+		public object HabilitarPeriodo(PeriodoVigente periodoVigente)
 		{
 			try
 			{
-				int res;
-				using (DapperManager<Nota> dapper = new SqlConnectionFactory<Nota>(connectionString).GetConnectionManager())
+				using (var connection = new SqlConnection(connectionString))
 				{
-					dapper.AddParameter("intOpcion", (int)EnumTipoProceso.Eliminar);
-					dapper.AddParameter("intNotaID", objInsumo.NotaID == 0 ? null : objInsumo.NotaID);
+					connection.Open();
+					var parameters = new DynamicParameters();
+					parameters.Add("intOpcion", 3);
+					parameters.Add("PeriodoVigenteID", periodoVigente.PeriodoVigenteID);
+					parameters.Add("Estado", periodoVigente.Estado);
+					var result = connection.QueryFirstOrDefault(ProcedimientosAlmacenados.CRUD_NOTAS, parameters, commandType: CommandType.StoredProcedure);
+					return result;
 
-					res = dapper.Execute(ProcedimientosAlmacenados.CRUD_NOTAS);
 				}
 
-				return new { filas = res, exitoso = true, error = string.Empty };
 			}
-			catch (Exception ex)
+
+            catch (Exception ex)
 			{
-				string msg = $"{Mensajes.ERROR_ELIMINANDO} {Funcionalidades.NOTAS} DAL: ";
-				log.Error(msg + ex.Message, ex);
-				return new { filas = 0, exitoso = false, error = msg + ex.Message };
-			}
+                string msg = $"{Mensajes.ERROR_ACTUALIZANDO} {Funcionalidades.NOTAS} DAL: ";
+                log.Error(msg + ex.Message, ex);
+                return new { filas = 0, exitoso = false, error = msg + ex.Message };
+            }
 		}
-	}
+
+        public List<ListadoUtilidades> ConsultarPeriodoVigente(ListadoUtilidades objInsumo)
+        {
+            try
+            {
+                using (var connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    var parameters = new DynamicParameters();
+                    parameters.Add("intOpcion", 10);
+                    var result = connection.Query<ListadoUtilidades>(ProcedimientosAlmacenados.CRUD_UTILIDADES, parameters, commandType: CommandType.StoredProcedure).ToList();
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                string msg = $"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.NOTAS} DAL: ";
+                log.Error(msg + ex.Message, ex);
+                return new List<ListadoUtilidades>();
+            }
+        }
+
+        public List<VerPeriodos> VerPeriodo(VerPeriodos objInsumo)
+        {
+            try
+            {
+                using (var connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    var parameters = new DynamicParameters();
+                    parameters.Add("intOpcion", 11);
+                    var result = connection.Query<VerPeriodos>(ProcedimientosAlmacenados.CRUD_UTILIDADES, parameters, commandType: CommandType.StoredProcedure).ToList();
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                string msg = $"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.NOTAS} DAL: ";
+                log.Error(msg + ex.Message, ex);
+                return new List<VerPeriodos>();
+            }
+        }
+
+    }
 }

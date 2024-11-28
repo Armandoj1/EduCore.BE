@@ -3,6 +3,7 @@
 public class ConsultarNotas
 {
     public string EstudianteCC { get; set; }
+    public string CC { get; set; }
     public string DocenteID { get; set; }
     public int GradoID { get; set; }
     public string MateriaID { get; set; }

@@ -1,13 +1,13 @@
-﻿using EduCore.Web.Negocio.Interfaces.Notas;
+﻿using EduCore.Web.Negocio.Interfaces;
 using EduCore.Web.Repositorio.Interface;
 using EduCore.Web.Transversales.Constantes;
-using EduCore.Web.Transversales.Entidades.Notas;
+using EduCore.Web.Transversales.Entidades;
 using EduCore.Web.Transversales.Respuesta;
 using log4net;
 using System.Collections.ObjectModel;
 using System.Reflection;
 
-namespace EduCore.Web.Negocio.Notas
+namespace EduCore.Web.Negocio
 {
 	public class NotasBLL : INotasBLL
 	{
@@ -16,39 +16,7 @@ namespace EduCore.Web.Negocio.Notas
 
 		public NotasBLL(INotasDAL objDAL) => _objDAL = objDAL;
 
-		public TRespuesta<object> Consultar(Nota objInsumo)
-		{
-			Collection<object> resCollection = new Collection<object>();
-			try
-			{
-				List<Nota> res = _objDAL.Consultar(objInsumo);
-
-				if (res != null)
-				{
-					var listadoRespuesta = (from r in res
-											select new
-											{
-												r.NotaID,
-												r.EstudianteCC,
-												r.MateriaID,
-												r.PeriodoID,
-												r.NotaValor,
-												r.Observacion,
-												r.FechaRegistro
-											}).ToList();
-					resCollection = new Collection<object>(listadoRespuesta.Cast<object>().ToList());
-				}
-
-				return ResponseManager.ResponseOk(resCollection.Count, resCollection);
-			}
-			catch (Exception ex)
-			{
-				log.Error($"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.NOTAS} BLL: " + ex.Message, ex);
-				return ResponseManager.ResponseError<object>($"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.NOTAS} BLL");
-			}
-		}
-
-		public TRespuesta<object> Insertar(NotaDTO objInsumo)
+		public TRespuesta<object> Insertar(Nota objInsumo)
 		{
 			try
 			{
@@ -78,7 +46,7 @@ namespace EduCore.Web.Negocio.Notas
 			}
 		}
 
-		public TRespuesta<object> Actualizar(NotaDTO objInsumo)
+		public TRespuesta<object> Actualizar(Nota objInsumo)
 		{
 			try
 			{
@@ -107,27 +75,85 @@ namespace EduCore.Web.Negocio.Notas
 			}
 		}
 
-		public TRespuesta<object> Eliminar(Nota objInsumo)
+		public TRespuesta<object> HabilitarPeriodo(PeriodoVigente periodoVigente)
 		{
 			try
 			{
-				if (objInsumo.NotaID != 0)
+				if (periodoVigente.Estado == 0 || periodoVigente.PeriodoVigenteID == 0)
 				{
-					var res = _objDAL.Eliminar(objInsumo);
-					var procesoExitoso = Convert.ToBoolean(res?.GetType().GetProperty("exitoso")?.GetValue(res, null));
+                    return ResponseManager.ResponseValidation<object>(Mensajes.INFORMACION_INCOMPLETA);
+                }
+				
+				var res = _objDAL.HabilitarPeriodo(periodoVigente);
+				bool procesoExitoso = Convert.ToBoolean(res?.GetType().GetProperty("exitoso")?.GetValue(res, null));
+			    string error = res?.GetType().GetProperty("error")?.GetValue(res, null)?.ToString();
+                int filasAfectadas = Convert.ToInt32(res?.GetType().GetProperty("filas")?.GetValue(res, null));
 
-					return ResponseManager.ResponseOk(Convert.ToInt32(res?.GetType().GetProperty("filas")?.GetValue(res, null)), procesoExitoso
-						? new Collection<object> { new { key = "respuesta", val = res } }
-						: new Collection<object> { new { key = "respuesta", val = new { NotaID = 0, exitoso = false, error = Mensajes.INFORMACION_INCOMPLETA } } });
-				}
-				else
-					return ResponseManager.ResponseValidation<object>(Mensajes.INFORMACION_INCOMPLETA);
+                if (!procesoExitoso && !string.IsNullOrEmpty(error))
+                {
+                     return ResponseManager.ResponseError<object>(error);
+                }
+                return ResponseManager.ResponseOk(filasAfectadas, new Collection<object> { new { key = "respuesta", val = true } });
 			}
 			catch (Exception ex)
 			{
-				log.Error($"{Mensajes.ERROR_ELIMINANDO} {Funcionalidades.NOTAS} BLL: " + ex.Message, ex);
-				return ResponseManager.ResponseError<object>($"{Mensajes.ERROR_ELIMINANDO} {Funcionalidades.NOTAS} BLL");
-			}
+                string msg = $"{Mensajes.ERROR_ACTUALIZANDO} {Funcionalidades.NOTAS} BLL: ";
+                log.Error(msg + ex.Message, ex);
+                return ResponseManager.ResponseError<object>(msg + ex.Message);
+            }
 		}
-	}
+
+		public TRespuesta<object> ConsultarPeriodoVigente(ListadoUtilidades objInsumo)
+		{
+			try
+			{
+				List<ListadoUtilidades> res = _objDAL.ConsultarPeriodoVigente(objInsumo);
+				Collection<object> resCollection = new Collection<object>();
+				if (res != null)
+				{
+					var consultarNotas = (from r in res
+										  select new
+										  {
+											  r.PeriodoVigenteID,
+											  r.NombrePeriodo
+										  }).ToList();
+					resCollection = new Collection<object>(consultarNotas.Cast<object>().ToList());
+				}
+				return ResponseManager.ResponseOk(resCollection.Count, resCollection);
+			}
+			catch (Exception ex)
+			{
+				log.Error($"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.NOTAS} BLL: {ex.Message}", ex);
+				return ResponseManager.ResponseError<object>(Mensajes.ERROR_CONSULTANDO);
+			}
+
+		}
+
+        public TRespuesta<object> VerPeriodo(VerPeriodos objInsumo)
+        {
+            try
+            {
+                List<VerPeriodos> res = _objDAL.VerPeriodo(objInsumo);
+                Collection<object> resCollection = new Collection<object>();
+                if (res != null)
+                {
+                    var consultarNotas = (from r in res
+                                          select new
+                                          {
+                                              r.PeriodoVigenteID,
+                                              r.NombrePeriodo, 
+											  r.Estado
+                                          }).ToList();
+                    resCollection = new Collection<object>(consultarNotas.Cast<object>().ToList());
+                }
+                return ResponseManager.ResponseOk(resCollection.Count, resCollection);
+            }
+            catch (Exception ex)
+            {
+                log.Error($"{Mensajes.ERROR_CONSULTANDO} {Funcionalidades.NOTAS} BLL: {ex.Message}", ex);
+                return ResponseManager.ResponseError<object>(Mensajes.ERROR_CONSULTANDO);
+            }
+
+        }
+    }
 }

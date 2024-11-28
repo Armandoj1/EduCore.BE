@@ -1,18 +1,13 @@
-﻿using EduCore.Web.Transversales.Entidades.Notas;
+﻿using EduCore.Web.Transversales.Entidades;
 using EduCore.Web.Transversales.Respuesta;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace EduCore.Web.Negocio.Interfaces.Notas
+namespace EduCore.Web.Negocio.Interfaces;
+
+public interface INotasBLL
 {
-	public interface INotasBLL
-	{
-		TRespuesta<object> Consultar(Nota objInsumo);
-		TRespuesta<object> Insertar(NotaDTO objInsumo);
-		TRespuesta<object> Actualizar(NotaDTO objInsumo);
-		TRespuesta<object> Eliminar(Nota objInsumo);  // Agregar este método
-	}
+	TRespuesta<object> Insertar(Nota objInsumo);
+	TRespuesta<object> Actualizar(Nota objInsumo);
+	TRespuesta<object> ConsultarPeriodoVigente(ListadoUtilidades objInsumo);
+    TRespuesta<object> VerPeriodo(VerPeriodos objInsumo);
+    TRespuesta<object> HabilitarPeriodo(PeriodoVigente objInsumo);
 }

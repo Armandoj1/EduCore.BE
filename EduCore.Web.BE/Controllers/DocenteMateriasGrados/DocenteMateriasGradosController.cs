@@ -1,4 +1,4 @@
-﻿using EduCore.Web.Negocio;
+﻿
 using EduCore.Web.Negocio.Interfaces;
 using EduCore.Web.Transversales.Entidades;
 using Microsoft.AspNetCore.Mvc;

@@ -14,4 +14,5 @@ public class ProcedimientosAlmacenados
     public const string CRUD_GRADOS_MATERIAS = "CrudGradosMaterias";
     public const string CRUD_EVENTOS = "CrudEventos";
     public const string CRUD_CONSULTAR_NOTAS = "CrudConsultarNotas";
+    public const string CRUD_DATOS_USUARIOS = "CrudModificarInformacion";
 }

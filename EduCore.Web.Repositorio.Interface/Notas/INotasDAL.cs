@@ -1,9 +1,10 @@
-﻿using EduCore.Web.Transversales.Entidades.Notas;
+﻿using EduCore.Web.Transversales.Entidades;
 namespace EduCore.Web.Repositorio.Interface;
 public interface INotasDAL
 {
-	List<Nota> Consultar(Nota obj);
-	object Eliminar(Nota obj);
-	object Insertar(NotaDTO obj);
-	object Actualizar(NotaDTO obj);
+	object Insertar(Nota obj);
+	object Actualizar(Nota obj);
+	List<ListadoUtilidades> ConsultarPeriodoVigente (ListadoUtilidades objInsumo);
+    List<VerPeriodos> VerPeriodo(VerPeriodos objInsumo);
+    object HabilitarPeriodo(PeriodoVigente periodoVigente);
 }
